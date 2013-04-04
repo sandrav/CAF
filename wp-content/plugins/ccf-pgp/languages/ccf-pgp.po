@@ -1,0 +1,2503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ccf-pgp 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-31 15:58-0300\n"
+"PO-Revision-Date: 2012-05-31 15:58-0300\n"
+"Last-Translator: Sandra Vega <sandra.vega.ux>\n"
+"Language-Team: Sandra Vega <info@sandravega.com.ar>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../modules/images\n"
+"X-Poedit-SearchPath-2: ../modules/db\n"
+"X-Poedit-SearchPath-3: ../modules/export\n"
+"X-Poedit-SearchPath-4: ../modules/usage_popover\n"
+"X-Poedit-SearchPath-5: ../modules/widget\n"
+
+#: ../ccf-pgp-front.php:134
+msgid "Go Back"
+msgstr ""
+
+#: ../ccf-pgp-front.php:134
+msgid "Go Back to Form."
+msgstr ""
+
+#: ../ccf-pgp-front.php:228
+msgid "(required)"
+msgstr ""
+
+#: ../ccf-pgp-front.php:373
+#: ../ccf-pgp-front.php:400
+msgid "An error occured while uploading: "
+msgstr ""
+
+#: ../ccf-pgp-front.php:375
+msgid " is too large of a file. The maximum file size for that field is "
+msgstr ""
+
+#: ../ccf-pgp-front.php:375
+msgid " KB."
+msgstr ""
+
+#: ../ccf-pgp-front.php:379
+msgid " is an invalid file extension."
+msgstr ""
+
+#: ../ccf-pgp-front.php:409
+msgid "You left this field blank: "
+msgstr ""
+
+#: ../ccf-pgp-front.php:410
+msgid "Form Displayed on Page: "
+msgstr ""
+
+#: ../ccf-pgp-front.php:411
+msgid "Sender IP: "
+msgstr ""
+
+#: ../ccf-pgp-front.php:497
+msgid "Only humans can use this form."
+msgstr ""
+
+#: ../ccf-pgp-front.php:503
+msgid "You copied the number from the captcha field incorrectly."
+msgstr ""
+
+#: ../ccf-pgp-front.php:509
+msgid "The email address you provided is not valid."
+msgstr ""
+
+#: ../ccf-pgp-front.php:515
+msgid "The website address you provided is not valid."
+msgstr ""
+
+#: ../ccf-pgp-front.php:590
+msgid "Not Checked"
+msgstr ""
+
+#: ../ccf-pgp-front.php:625
+#: ../ccf-pgp-admin.php:388
+#: ../ccf-pgp-admin.php:2055
+#: ../ccf-pgp-admin.php:2243
+#: ../ccf-pgp-admin.php:2715
+#: ../ccf-pgp-submission.php:25
+#: ../ccf-pgp.php:82
+#: ../ccf-pgp.php:83
+msgid "CCF PGP"
+msgstr ""
+
+#: ../ccf-pgp-front.php:642
+msgid "To view the message, please use an HTML compatible email viewer."
+msgstr ""
+
+#: ../ccf-pgp-front.php:667
+msgid "Captcha image for CCF PGP plugin. You must type the numbers shown in the image"
+msgstr ""
+
+#: ../ccf-pgp-utils.php:71
+msgid "Use this field if you want the plugin to throw an error on fake emails."
+msgstr ""
+
+#: ../ccf-pgp-utils.php:72
+msgid "This field will throw an error on invalid website addresses."
+msgstr ""
+
+#: ../ccf-pgp-utils.php:73
+msgid "This field lets users specify the subject of the email sent to you on submission."
+msgstr ""
+
+#: ../ccf-pgp-utils.php:76
+msgid "This field requires users to type numbers in an image preventing spam."
+msgstr ""
+
+#: ../ccf-pgp-utils.php:77
+msgid "This field requires users to check a box to prove they aren't a spam bot."
+msgstr ""
+
+#: ../ccf-pgp-utils.php:78
+msgid "This is a dropdown field showing each state in the US. If you want a state initially selected, enter it in 'Initial Value.'"
+msgstr ""
+
+#: ../ccf-pgp-utils.php:79
+msgid "This field displays a text box that when clicked pops up an interactive calender.'"
+msgstr ""
+
+#: ../ccf-pgp-utils.php:80
+msgid "This is a dropdown field showing countries. If you want a country initially selected, enter it in 'Initial Value.'"
+msgstr ""
+
+#: ../ccf-pgp-utils.php:81
+msgid "This field lets users reset all form fields to their initial values. This will be inserted next to the submit button."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:33
+msgid "Manage CCF PGP"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:33
+msgid "Settings"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:169
+#: ../ccf-pgp-admin.php:242
+msgid "Nothing to show."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:198
+msgid "Invalid request."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:231
+msgid "Attaching"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:232
+msgid "Detaching"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:233
+#: ../ccf-pgp-admin.php:585
+#: ../ccf-pgp-admin.php:705
+#: ../ccf-pgp-admin.php:906
+#: ../ccf-pgp-admin.php:1023
+#: ../ccf-pgp-admin.php:1089
+#: ../ccf-pgp-admin.php:1158
+#: ../ccf-pgp-admin.php:1208
+#: ../ccf-pgp-admin.php:1227
+#: ../ccf-pgp-admin.php:1640
+#: ../ccf-pgp-admin.php:1856
+msgid "Save"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:234
+#: ../ccf-pgp-admin.php:647
+#: ../ccf-pgp-admin.php:971
+msgid "Attach"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:235
+msgid "Saving"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:236
+msgid "More Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:237
+#: ../ccf-pgp-admin.php:2106
+#: ../ccf-pgp-submission.php:91
+msgid "Expand"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:238
+msgid "Click to Confirm"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:240
+msgid "Are you sure you want to delete this"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:241
+msgid "An error has occured. Please try again later."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:243
+msgid "Nothing Attached!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:244
+msgid "No Fields"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:285
+msgid "A new form was successfully created!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:288
+msgid "A new field was successful created!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:291
+msgid "A new field option was successful created!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:294
+msgid "A new style was successful created!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:347
+msgid "Rate This Plugin"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:348
+msgid "We need your help to continue development! Please <span>rate this plugin</span> to show your support."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:371
+msgid "Default content has been inserted!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:374
+msgid "Your message has been sent!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:396
+#: ../ccf-pgp-admin.php:2619
+#: ../ccf-pgp-admin.php:2637
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:5
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:242
+msgid "Forms"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:397
+#: ../ccf-pgp-admin.php:2631
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:8
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:49
+msgid "Fields"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:398
+#: ../ccf-pgp-admin.php:2643
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:14
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:209
+msgid "Field Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:399
+#: ../ccf-pgp-admin.php:2649
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:17
+msgid "Styles"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:400
+msgid "Support"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:401
+msgid "Advanced"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:402
+msgid "News"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:404
+msgid "CCF PGP works best with any of the 20+ "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:404
+msgid "Genesis"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:404
+msgid "Wordpress child themes. The"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:404
+msgid "Genesis Framework"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:404
+msgid "empowers you to quickly and easily build incredible websites with WordPress."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:414
+msgid "WP Blogging Tips, Downloads, SEO Tricks & Exclusive Tutorials"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:429
+msgid "Create A Form"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:437
+msgid "Form Slug:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:441
+msgid "This is just a unique way for CCF to refer to your form. Must be unique from other slugs and contain only underscores and alphanumeric characters."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:445
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:254
+msgid "Form Title:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:448
+msgid "This text is displayed above the form as the heading."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:452
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:269
+msgid "Form Style:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:459
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:274
+msgid "Submit Button Text:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:465
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:284
+msgid "Form Destination Email:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:469
+msgid "Will receive all submissions from this form; if left blank it will use the default specified in general settings. You can have form submissions sent to multiple emails by separating them with semicolons."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:473
+msgid "Form Email Subject:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:477
+msgid "When submitted and configured accordingly, the form will send an email with this subject."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:481
+msgid "Form Email Name:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:485
+msgid "When submitted and configured accordingly, the form will send an email with this as the email 'from name'."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:491
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:289
+msgid "Form Success Message:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:495
+#: ../ccf-pgp-admin.php:503
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:296
+msgid "Will be displayed in a popover when the form is filled out successfully when no custom success page is specified; if left blank it will use the default specified in general settings."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:499
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:294
+msgid "Form Success Message Title:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:507
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:299
+msgid "Custom Success URL:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:511
+msgid "If this is filled out, users will be sent to this page when they successfully fill out this form. If it is left blank, a popover showing the form's 'success message' will be displayed on form success."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:514
+msgid "Who Can View This Form:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:530
+msgid "Choose which types of users should be able to view this form."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:534
+msgid "Create Form"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:536
+msgid "You should go to the form manager to attach fields to this form after you create it."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:544
+msgid "Manage Forms"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:552
+#: ../ccf-pgp-admin.php:694
+msgid "Form Display Code"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:553
+#: ../ccf-pgp-admin.php:695
+msgid "Theme Display Code"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:554
+#: ../ccf-pgp-admin.php:696
+#: ../ccf-pgp-admin.php:852
+#: ../ccf-pgp-admin.php:1012
+#: ../ccf-pgp-admin.php:1037
+#: ../ccf-pgp-admin.php:1147
+#: ../ccf-pgp-admin.php:1175
+#: ../ccf-pgp-admin.php:1185
+msgid "Slug"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:555
+#: ../ccf-pgp-admin.php:697
+msgid "Title"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:556
+#: ../ccf-pgp-admin.php:698
+msgid "Style"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:586
+#: ../ccf-pgp-admin.php:706
+#: ../ccf-pgp-admin.php:907
+#: ../ccf-pgp-admin.php:1024
+#: ../ccf-pgp-admin.php:1209
+#: ../ccf-pgp-admin.php:1228
+#: ../ccf-pgp-admin.php:1641
+#: ../ccf-pgp-admin.php:1857
+#: ../ccf-pgp-admin.php:2107
+#: ../ccf-pgp-admin.php:2190
+#: ../ccf-pgp-submission.php:92
+#: ../ccf-pgp-submission.php:205
+msgid "Delete"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:587
+#: ../ccf-pgp-admin.php:908
+#: ../ccf-pgp-admin.php:1090
+msgid "Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:597
+msgid "Form submissions will be emailed to this address."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:598
+msgid "This is the form email subject sent to the destination email address. If left blank, the default from General Settings will be used."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:599
+msgid "This is the from name of the email sent on successful form submission. If left blank, the default from General Settings will be used."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:603
+msgid "The Form Method is the method by which information is transfer through your form. If you aren't an expert with HTML and PHP, leave this as Post."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:606
+msgid "This lets you process your forms through alternate scripts. If you use a service like InfusionSoft or Aweber, set this to be the same form action as the code provided to you by that service, otherwise leave this blank."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:607
+msgid "Insert the page id's that your form will be used on. This will make it so the plugin will only load JS and CSS files on these select pages. This will improve your site's load time."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:608
+msgid "If you want to show this form to only certain types of users, you can uncheck boxes accordingly. To show this form to anyone, check all the boxes. This will only take effect if 'Form Access Capabilities' is enabled in general settings."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:627
+msgid "If this is filled out, users will be sent to this thank you page when they successfully fill out this form. If it is left blank, a popover showing the form's 'success message' will be displayed on form success."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:628
+msgid "This will be displayed as the header in a popover when the form is filled out successfully when no custom success page is specified; if left blank it will use the default specified in general settings."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:629
+msgid "This will be displayed in a popover when the form is filled out successfully when no custom success page is specified; if left blank it will use the default specified in general settings."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:634
+msgid "This text will display on the form submit button."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:635
+msgid "This field allows you to insert HTML directly after the starting <form> tag."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:643
+msgid "Add A Field:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:650
+msgid "Attach fixed fields or ones you"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:652
+#: ../ccf-pgp-admin.php:976
+msgid "create"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:657
+msgid "Attached Fields:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:672
+msgid "Save Field Configuration"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:684
+#: ../ccf-pgp-admin.php:782
+#: ../ccf-pgp-admin.php:882
+#: ../ccf-pgp-admin.php:894
+#: ../ccf-pgp-admin.php:1071
+#: ../ccf-pgp-admin.php:1081
+#: ../ccf-pgp-admin.php:1204
+#: ../ccf-pgp-admin.php:1269
+#: ../ccf-pgp-admin.php:2284
+#: ../ccf-pgp-admin.php:2428
+#: ../ccf-pgp-admin.php:2460
+msgid "Yes"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:684
+#: ../ccf-pgp-admin.php:779
+#: ../ccf-pgp-admin.php:885
+#: ../ccf-pgp-admin.php:897
+#: ../ccf-pgp-admin.php:1074
+#: ../ccf-pgp-admin.php:1204
+#: ../ccf-pgp-admin.php:1269
+#: ../ccf-pgp-admin.php:2287
+#: ../ccf-pgp-admin.php:2431
+#: ../ccf-pgp-admin.php:2463
+msgid "No"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:704
+#: ../ccf-pgp-admin.php:1022
+#: ../ccf-pgp-admin.php:1157
+#: ../ccf-pgp-admin.php:1226
+#: ../ccf-pgp-admin.php:1855
+#: ../ccf-pgp-admin.php:2189
+#: ../ccf-pgp-submission.php:204
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:707
+#: ../ccf-pgp-admin.php:1025
+#: ../ccf-pgp-admin.php:1159
+#: ../ccf-pgp-admin.php:1229
+#: ../ccf-pgp-admin.php:1858
+#: ../ccf-pgp-submission.php:206
+msgid "Apply"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:715
+msgid "Create A Form Field"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:723
+msgid "Field Slug:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:727
+msgid "This is just a unique way for CCF to refer to your field. Must be unique from other slugs and contain only underscores and alphanumeric characters."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:731
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:144
+msgid "Field Label:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:735
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:146
+msgid "The field label is displayed next to the field and is visible to the user."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:739
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:149
+msgid "Field Type:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:754
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:154
+msgid "Initial Value:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:758
+msgid "This is the initial value of the field. If you set the type as checkbox, it is recommend you set this to what the checkbox is implying. For example if I were creating the checkbox 'Are you human?', I would set the initial value to 'Yes'."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:759
+msgid "If you set the field type as 'Dropdown' or 'Radio', you should enter the slug of the"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:760
+msgid "Create a Field Option"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:760
+msgid "field option"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:761
+msgid "you would like initially selected."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:765
+#: ../ccf-pgp-admin.php:938
+#: ../ccf-pgp-admin.php:1130
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:159
+msgid "Max Length:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:769
+msgid "0 for no limit; only applies to Text fields"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:775
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:164
+msgid "Required Field:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:786
+msgid "If a field is required and a user leaves it blank, the plugin will display an error message (which you can customize using 'Field Error') explaining the problem."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:790
+#: ../ccf-pgp-admin.php:918
+#: ../ccf-pgp-admin.php:1107
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:169
+msgid "Field Instructions:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:794
+#: ../ccf-pgp-admin.php:917
+#: ../ccf-pgp-admin.php:1106
+msgid "If this is filled out, a tooltip popover displaying this text will show when the field is selected."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:798
+#: ../ccf-pgp-admin.php:932
+#: ../ccf-pgp-admin.php:1099
+#: ../ccf-pgp-admin.php:1122
+msgid "Field Class:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:802
+msgid "If you manage your own .css stylesheet, you can use this to attach a class to this field. Leaving this blank will do nothing."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:806
+#: ../ccf-pgp-admin.php:925
+#: ../ccf-pgp-admin.php:1114
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:174
+msgid "Field Error:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:810
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:176
+msgid "If a user leaves this field blank and the field is required, this error message will be shown. A generic default will show if left blank."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:814
+msgid "Max File Size Allowed:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:816
+#: ../ccf-pgp-admin.php:946
+msgid "KB"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:818
+msgid "If a user tries to upload a file larger than the max upload size, an error message will be displayed."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:822
+msgid "Allowed File Extensions for Upload:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:826
+msgid "If a user tries to upload a file with an extension not in this list, an error will be shown. Separate file extensions with a comma. Ex: doc, jpg, jpeg, txt. If left blank, all extensions will be allowed."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:833
+msgid "Create Field"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:835
+msgid "If this is a dropdown or radio field, you should go to the field manager below to attach field options after you create it."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:844
+msgid "Manage User Fields"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:853
+#: ../ccf-pgp-admin.php:1013
+#: ../ccf-pgp-admin.php:1038
+#: ../ccf-pgp-admin.php:1148
+#: ../ccf-pgp-admin.php:1176
+#: ../ccf-pgp-admin.php:1186
+msgid "Label"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:854
+#: ../ccf-pgp-admin.php:1014
+#: ../ccf-pgp-admin.php:1039
+#: ../ccf-pgp-admin.php:1149
+msgid "Type"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:855
+#: ../ccf-pgp-admin.php:1015
+#: ../ccf-pgp-admin.php:1040
+#: ../ccf-pgp-admin.php:1150
+msgid "Initial Value"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:856
+#: ../ccf-pgp-admin.php:1016
+#: ../ccf-pgp-admin.php:1041
+#: ../ccf-pgp-admin.php:1151
+msgid "Required"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:858
+msgid "Encrypted"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:924
+#: ../ccf-pgp-admin.php:1113
+msgid "This lets you customize the error message displayed when this field is required and left blank."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:931
+#: ../ccf-pgp-admin.php:1098
+#: ../ccf-pgp-admin.php:1121
+#: ../ccf-pgp-admin.php:1129
+msgid "If you manage a .CSS file for your theme, you could create a class in that file and add it to this field. If the form attaching this field is using a \"Form Style\" other than the default, styles inherited from the \"Field Class\" might be overwritten."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:937
+msgid "Max length allows you to set a cap on the amount of characters a user can submit."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:944
+msgid "If a user tries to upload a file greater than the value in this field, an error will be shown. Upload size is in KB. If this is left blank or set to 0, then there will be no maximum file size for this field."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:945
+msgid "Max Upload Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:948
+msgid "If a user tries to upload a file with an extension not in this list, an error will be shown. If this is left blank, then all file extensions will be accepted. Separate file extensions with a comma. Ex: doc, jpg, jpeg, bmp, gif, txt"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:949
+msgid "Allowed File Extensions:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:960
+msgid "Add A Field Option:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:974
+msgid "Attach field options you "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:981
+msgid "Attached Field Options:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:996
+msgid "Save Option Configuration"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1029
+msgid "Manage Fixed Fields"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1057
+#: ../ccf-pgp-admin.php:2555
+msgid "None"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1166
+msgid "Manage Field Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1177
+#: ../ccf-pgp-admin.php:1187
+msgid "Value"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1178
+#: ../ccf-pgp-admin.php:1188
+msgid "Is Dead"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1218
+msgid "No field options have been created."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1237
+msgid "Create A Field Option"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1245
+msgid "Option Slug:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1249
+msgid "Used to identify this option, solely for admin purposes; must be unique, and contain only letters, numbers, and underscores. Example: 'slug_one'"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1253
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:221
+msgid "Option Label:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1257
+msgid "This is what is shown to the user in the dropdown or radio field. Example: 'United States'"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1261
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:226
+msgid "Option Value:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1265
+msgid "This is the actual value of the option which is not shown to the user. This can be the same thing as the label. An example pairing of label => value is: 'The color green' => 'green' or 'Yes' => '1'. If you don't know what this is, leave it blank."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1268
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:231
+msgid "Is Dead Option:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1271
+msgid "A dead option is something like 'Please Select One'. This is a useful tool for required dropdown fields. If a dead option is submitted by a user for a required dropdown field, then the user will have to go back and fill out the field again."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1275
+msgid "Create Field Option"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1288
+msgid "Create A Style for Your Forms"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1292
+msgid "Use this manager to create styles for your forms. Each field is already filled out with nice look defaults. It is recommended you simply input a slug and click create to see the defaults before you start changing values."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1299
+msgid "Style Slug:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1302
+msgid "(Must be unique)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1306
+#: ../ccf-pgp-admin.php:1711
+#: ../ccf-pgp-admin.php:1720
+msgid "Title Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1309
+msgid "(ex: 10pt, 10px, 1em)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1313
+#: ../ccf-pgp-admin.php:1759
+#: ../ccf-pgp-admin.php:1827
+msgid "Title Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1316
+#: ../ccf-pgp-admin.php:1337
+#: ../ccf-pgp-admin.php:1401
+#: ../ccf-pgp-admin.php:1502
+#: ../ccf-pgp-admin.php:1509
+#: ../ccf-pgp-admin.php:1537
+msgid "(ex: FF0000)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1320
+#: ../ccf-pgp-admin.php:1684
+msgid "Label Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1323
+msgid "(ex: 100px or 20%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1327
+#: ../ccf-pgp-admin.php:1725
+msgid "Label Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1330
+#: ../ccf-pgp-admin.php:1495
+msgid "(ex: 10px, 10pt, 1em)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1334
+#: ../ccf-pgp-admin.php:1764
+msgid "Label Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1341
+#: ../ccf-pgp-admin.php:1651
+msgid "Text Field Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1344
+#: ../ccf-pgp-admin.php:1351
+#: ../ccf-pgp-admin.php:1358
+#: ../ccf-pgp-admin.php:1438
+msgid "(ex: 100px or 100%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1348
+msgid "Textarea Field Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1355
+msgid "Textarea Field Height:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1362
+#: ../ccf-pgp-admin.php:1730
+msgid "Field Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1365
+msgid "(ex: 10px, 10pt, 1em"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1369
+#: ../ccf-pgp-admin.php:1769
+msgid "Field Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1372
+#: ../ccf-pgp-admin.php:1408
+msgid "(ex: 333333)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1376
+#: ../ccf-pgp-admin.php:1818
+msgid "Field Border Style:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1384
+#: ../ccf-pgp-admin.php:1779
+msgid "Form Margin:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1387
+#: ../ccf-pgp-admin.php:1394
+#: ../ccf-pgp-admin.php:1516
+#: ../ccf-pgp-admin.php:1523
+msgid "(ex: 5px or 1em)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1391
+#: ../ccf-pgp-admin.php:1671
+msgid "Label Margin:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1398
+msgid "Textarea Background Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1405
+msgid "Success Popover Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1412
+msgid "Success Popover Title Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1415
+#: ../ccf-pgp-admin.php:1422
+#: ../ccf-pgp-admin.php:1544
+#: ../ccf-pgp-admin.php:1567
+msgid "(ex: 12px, 1em, 100%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1419
+#: ../ccf-pgp-admin.php:1715
+msgid "Form Background Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1426
+msgid "Tooltip Background Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1429
+msgid "(ex: 000000 or black)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1435
+#: ../ccf-pgp-admin.php:1813
+msgid "Field Border Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1442
+#: ../ccf-pgp-admin.php:1796
+msgid "Form Border Style:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1450
+#: ../ccf-pgp-admin.php:1808
+msgid "Form Border Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1453
+msgid "(ex: 000000)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1457
+#: ../ccf-pgp-admin.php:1803
+msgid "Form Border Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1460
+msgid "(ex: 1px)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1464
+#: ../ccf-pgp-admin.php:1646
+msgid "Form Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1467
+msgid "(ex: 100px or 50%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1471
+msgid "Form Font Family:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1474
+msgid "(ex: Verdana, Tahoma, Arial)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1478
+#: ../ccf-pgp-admin.php:1689
+msgid "Button Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1481
+msgid "(ex: 100px, 30%, auto)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1485
+#: ../ccf-pgp-admin.php:1694
+msgid "Button Height:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1488
+msgid "(ex: 100px or 30%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1492
+#: ../ccf-pgp-admin.php:1735
+msgid "Button Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1499
+#: ../ccf-pgp-admin.php:1774
+msgid "Button Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1506
+#: ../ccf-pgp-admin.php:1699
+msgid "Field Background Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1513
+#: ../ccf-pgp-admin.php:1740
+msgid "Form Padding:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1520
+#: ../ccf-pgp-admin.php:1704
+msgid "Title Margin:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1527
+#: ../ccf-pgp-admin.php:1666
+msgid "Dropdown Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1530
+msgid "(ex: 30px, 20%, or auto)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1534
+msgid "Success Popover Border Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1541
+msgid "Success Popover Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1548
+msgid "Success Popover Height:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1551
+msgid "(ex: 200px, 6em, 50%)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1555
+#: ../ccf-pgp-admin.php:1832
+msgid "Field Border Roundness:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1558
+msgid "(ex: 6px, or 0px)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1562
+#: ../ccf-pgp-admin.php:1634
+#: ../ccf-pgp-admin.php:1752
+msgid "Tooltip"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1563
+#: ../ccf-pgp-admin.php:1635
+#: ../ccf-pgp-admin.php:1753
+msgid "A tooltip is the little box that fades in displaying 'Field Instructions' when a user selects a particular field."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1564
+#: ../ccf-pgp-admin.php:1747
+msgid "Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1571
+msgid "Tooltip Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1574
+msgid "(ex: ffffff or white)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1578
+msgid "Create Style"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1587
+msgid "Manage Form Styles"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1610
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:139
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:216
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:249
+msgid "Slug:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1615
+msgid "Font Family:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1620
+msgid "Textarea Background"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1622
+msgid "Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1627
+#: ../ccf-pgp-admin.php:1676
+#: ../ccf-pgp-admin.php:1709
+#: ../ccf-pgp-admin.php:1745
+#: ../ccf-pgp-admin.php:1784
+#: ../ccf-pgp-admin.php:1825
+msgid "Success Popover"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1629
+msgid "Border Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1636
+#: ../ccf-pgp-admin.php:1786
+msgid "Font Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1656
+msgid "Textarea Width:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1661
+msgid "Textarea Height:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1678
+msgid "Height:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1754
+msgid "Background Color:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1791
+msgid "Tooltip Font Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1864
+msgid "Report a Bug/Suggest a Feature"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1872
+msgid "Your Name:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1878
+msgid "Your Email:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1886
+msgid "Who Hosts Your Website?"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1892
+msgid "Purpose of this message:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1896
+msgid "Bug Report"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1899
+msgid "Suggest a Feature"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1902
+msgid "Plugin Question"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1910
+msgid "Version of CCF PGP?"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1916
+msgid "Version of WordPress?"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1924
+msgid "Your Message:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1930
+msgid "Send Message"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1940
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:20
+msgid "Custom HTML Forms"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1944
+msgid "If you know HTML and simply want to use this plugin to process form requests, this feature is for you."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1945
+msgid "The following HTML is a the framework to which you must adhere. In order for your form to work you MUST do the following: "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1946
+msgid "a) Keep the form action/method the same (yes the action is supposed to be empty), b) Include all the hidden fields shown below, c) provide ahidden field with a success message or thank you page (both hidden fields are included below, you must choose one or the other and fill in the value part of the input field appropriately."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1951
+msgid "Thank you for filling out our form!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1956
+msgid "Paste all this code into a page or post and edit it to your liking. It is recommended you only use this feature if you are experienced with HTML. The destination_email field specifies where emails will be sent on successful submission; you can have the form send to multiple addresses by separating email's with semi-colons (i.e. email@google.com; email2@google.com). The success_message field will add a popover containing the message when the form is completed successfully, the thank_you_page field will force the user to be redirected to that specific page on successful form completion. The required_fields hidden field is optional; to use it separate the field names you want required by commas. Remember to use underscores instead of spaces in field names!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:1966
+msgid "CCF PGP Plugin News"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2034
+#: ../ccf-pgp-admin.php:2733
+#: ../ccf-pgp-submission.php:148
+msgid "Private Encryption Key: "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2041
+#: ../ccf-pgp-submission.php:150
+msgid "Send Private Key"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2071
+#: ../ccf-pgp-submission.php:54
+#: ../ccf-pgp.php:84
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:365
+msgid "Saved Form Submissions"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2078
+#: ../ccf-pgp-admin.php:2179
+#: ../ccf-pgp-submission.php:63
+#: ../ccf-pgp-submission.php:194
+msgid "Date Submitted"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2079
+#: ../ccf-pgp-admin.php:2180
+#: ../ccf-pgp-submission.php:64
+#: ../ccf-pgp-submission.php:195
+#: ../modules/export/ccf-pgp-export.php:22
+msgid "Form Submitted"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2080
+#: ../ccf-pgp-admin.php:2181
+#: ../ccf-pgp-submission.php:65
+#: ../ccf-pgp-submission.php:196
+msgid "Form Page"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2081
+#: ../ccf-pgp-admin.php:2182
+#: ../ccf-pgp-submission.php:66
+#: ../ccf-pgp-submission.php:197
+#: ../modules/export/ccf-pgp-export.php:22
+msgid "Form ID"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2100
+#: ../ccf-pgp-submission.php:85
+#: ../modules/widget/ccf-pgp-dashboard.php:90
+msgid "Custom HTML Form"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2161
+#: ../ccf-pgp-submission.php:138
+msgid "Please enter a valid key for private data"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2230
+msgid "Your settings have been successfully saved!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2235
+msgid "Your mail settings have been successfully saved!"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2273
+#: ../ccf-pgp.php:85
+msgid "General Settings"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2280
+msgid "Email Form Submissions:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2292
+msgid "When a user fills out one of your forms, the info submitted is saved in the Saved Form Submission section of the admin panel for you to view. If this is enabled, you will also be sent an email containing the submission info."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2296
+msgid "Default Email:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2301
+msgid "Form emails will be sent <span>to</span> this address, if no destination email is specified by the form."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2305
+msgid "Front End JQuery:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2309
+#: ../ccf-pgp-admin.php:2352
+#: ../ccf-pgp-admin.php:2444
+#: ../ccf-pgp-admin.php:2487
+msgid "Enabled"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2312
+#: ../ccf-pgp-admin.php:2355
+#: ../ccf-pgp-admin.php:2447
+#: ../ccf-pgp-admin.php:2484
+msgid "Disabled"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2317
+#, php-format
+msgid "Some plugins don't setup JQuery correctly, so when any other plugin uses JQuery (whether correctly or not), JQuery works for neither plugin. This plugin uses JQuery correctly. If another plugin isn't using JQuery correctly but is more important to you than this one: disable this option. 99% of this plugin's functionality will work without JQuery, just no field instruction tooltips."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2321
+msgid "Default From Email:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2326
+msgid "Form emails will be sent <span>from</span> this address. It is recommended you provide a real email address that has been created through your host."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2330
+msgid "Default From Name:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2335
+msgid "This setting allows you to specify the name under which form emails are sent. The default is 'CCF PGP'."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2339
+msgid "Default Email Subject:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2344
+msgid "Default subject to be included in all form emails."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2348
+msgid "Enable Dashboard Widget:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2359
+msgid "Enabling this will display a widget on your dashboard that shows the latest form submissions."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2363
+msgid "Dashboard Widget Accessibility:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2367
+msgid "Only admins can view"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2370
+msgid "All roles except subscribers can view"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2373
+msgid "All roles can view"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2377
+msgid "If you are using the dashboard widget, this allows you to disallow certain users from viewing it."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2381
+msgid "Use Code Type:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2389
+msgid "This lets you switch the form code between HTML and XHTML."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2396
+msgid "Default Form Success Message Title:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2401
+msgid "If someone fills out a form for which a success message title is not provided and a custom success page is not provided, the plugin will show a popover using this field as the window title."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2406
+msgid "Default Form Success Message:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2411
+msgid "If someone fills out a form for which a success message is not provided and a custom success page is not provided, the plugin will show a popover containing this message."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2415
+msgid "Default Form Error Header:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2420
+msgid "When a form is filled out incorrectly, this message will be displayed followed by the individual field error messages."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2424
+msgid "Remember Field Values:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2436
+msgid "Selecting yes will make form fields remember how they were last filled out."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2440
+msgid "Tooltips in Widget:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2452
+msgid "Enabling this shows tooltips containing field instructions on forms in the widget."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2456
+msgid "Restrict Frontend JS and CSS to Form Pages Only:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2467
+msgid "Within each form in the form manager, you can specify the page id's on which that form will be used. If you set this to 'Yes', the plugin will only include CSS and JS files on pages/posts where a CCF form is inserted. If this is set to 'No', CSS and JS files for this plugin will be included on every page of your site except in the admin area."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2471
+msgid "Default Permissions Error:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2476
+msgid "When someone doesn't have the proper permissions to use a form, this message is displayed in place of the form. You control who can view each form with the form access manager which is located inside the form manager."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2480
+msgid "Form Access Capabilities:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2492
+msgid "The form access manager within each form allows you to control who can view your form. However, that will not take effect on any of your forms unless this is enabled."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2496
+msgid "Maximum File Upload Size:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2498
+msgid "MB"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2502
+msgid "When creating file fields, you can specify maximum upload sizes for each individual field. This setting lets you set an overall cap for security reasons. It is recommended you leave this at 10 MB."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2505
+msgid "Show Sidebar Widget:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2510
+msgid "On Homepage"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2514
+msgid "On Pages"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2518
+msgid "On Single Posts"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2523
+msgid "On Categories"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2527
+msgid "On Archives"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2532
+msgid "Update"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2540
+msgid "Mail Settings"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2544
+msgid "There are two ways you can send emails: using the PHP mail() function or using SMTP (secure/insecure). If you choose to use the PHP mail() function you can ignore all the other options. For some people Wordpress's default way of sending mail does not work; if for some reason your mail is being sent you should try the SMTP option."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2545
+msgid "* Send My Emails Using the Following:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2547
+msgid "Wordpress Default"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2548
+msgid "SMTP"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2549
+msgid "(If mail isn't sending, try toggling this option.)"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2552
+msgid "SMTP Host:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2553
+msgid "SMTP Port:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2554
+msgid "Encryption:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2556
+msgid "SSL"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2557
+msgid "TLS"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2561
+msgid "SMTP Authentication:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2561
+msgid "None Needed"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2561
+msgid "Use SMTP Username/Password"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2562
+msgid "SMTP Username:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2563
+msgid "SMTP Password:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2566
+msgid "Save Mail Sending Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2572
+msgid "Export"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2579
+msgid "Preforming this export will create a file of the form ccf-export-xxxx.sql on your web server. "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2580
+msgid "The file created contains SQL that will recreate all the plugin data on any Wordpress installation. "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2581
+msgid "After CCF PGP creates the export file, you will be prompted to download it. You can use this file as a backup in case your Wordpress database gets ruined."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2583
+msgid "Export All CCF Plugin Content"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2586
+msgid "You can export your form submissions in to a convienent format. Clicking the button below will prompt you to download a .CSV file that contains all your saved form submissions. Since this export contains multiple forms that are assumed to have different fields, this export will only contain the value of each field and not the name of that field."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2587
+msgid "Export All Saved Form Submissions to CSV"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2590
+msgid "You can also export only submissions from certain forms in to CSV format. This CSV export will probably more useful to you because it will contain the name of fields as well as the values. This export works best on forms that have fields that have remained completely constant throughout submission."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2591
+msgid "Export This Form's Submissions to CSV"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2598
+msgid "Import"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2604
+msgid "Browse to a CCF .sql export file to import Custom Contact Form data from another Wordpress installation to this one. Pressing the 'Clear and Import' button deletes all current data and then imports the selected file; this will not work for merging to data!. Clearing all CCF data before importing prevents any conflicts from occuring. Before you attempt an import, you should always download a backup, by clicking the 'Export All' button."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2607
+msgid "Choose What You Want to Use from the Import File:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2613
+msgid "Use General Settings"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2625
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:26
+msgid "Form Submissions"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2655
+msgid "Choose an Import File:"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2659
+msgid "Clear and Import"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2661
+msgid "Yes, I want to do this and have created a backup."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2679
+msgid "Options saved."
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2725
+msgid "CCF PGP Security Settings"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2726
+msgid "Public Encryption Key: "
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2739
+msgid "Update Options"
+msgstr ""
+
+#: ../ccf-pgp-admin.php:2740
+msgid "Generate Key Pair"
+msgstr ""
+
+#: ../ccf-pgp-submission.php:171
+msgid "Private Key Loaded Temporarily"
+msgstr ""
+
+#: ../ccf-pgp-submission.php:179
+msgid "ERROR"
+msgstr ""
+
+#: ../ccf-pgp.php:35
+msgid "Someone Filled Out Your Contact Form!"
+msgstr ""
+
+#: ../ccf-pgp.php:36
+msgid "Successful Form Submission"
+msgstr ""
+
+#: ../ccf-pgp.php:36
+msgid "Thank you for filling out our web form. We will get back to you ASAP."
+msgstr ""
+
+#: ../ccf-pgp.php:37
+msgid "You filled out the form incorrectly."
+msgstr ""
+
+#: ../ccf-pgp.php:38
+msgid "You don't have the proper permissions to view this form."
+msgstr ""
+
+#: ../ccf-pgp.php:87
+msgid "Initial PGP settings"
+msgstr ""
+
+#: ../ccf-pgp.php:87
+msgid "Initial Private Settings"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-widget.php:10
+msgid "Add a customized CCF PGP form to your sidebar."
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-widget.php:44
+msgid "Choose a Form:"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-widget.php:55
+msgid "Create a Form"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:11
+msgid "CCF PGP - Saved Form Submissions"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:73
+msgid "No submissions to display."
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:102
+msgid "View"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:103
+msgid "CCF Saved Form Submission"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:106
+msgid "Form Submitted:"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:106
+msgid "Not Found"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:107
+msgid "Form Location:"
+msgstr ""
+
+#: ../modules/widget/ccf-pgp-dashboard.php:129
+#: ../modules/widget/ccf-pgp-dashboard.php:139
+msgid "View All Submissions"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-user-data.php:144
+msgid "View File Upload"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:22
+msgid "Date"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:22
+msgid "Form Location"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:111
+msgid "CCF PGP Export File"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:112
+msgid "It is recommended that you do not edit this file. The order of the"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:113
+msgid "queries is important if you intend to use this file through the CCF"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:114
+msgid "exporter. The query to update general settings MUST be the last query"
+msgstr ""
+
+#: ../modules/export/ccf-pgp-export.php:115
+msgid "in this file."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:1
+msgid "Quick Start Guide"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:3
+msgid "If you want to quickly and easily create a form and insert it in to your WordPress site, then follow these simple instructions."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:6
+msgid "First insert some default content by clicking the button below. This will create a standard form automatically that, if you wish, can be customized later."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:8
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:41
+msgid "Insert Default Content"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:11
+msgid "Insert the code, [ccfpgp form=1], in any page or post. If you want to insert a form in to a theme file, locate the form in the form manager in the admin panel where you will find the theme display code."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-quick-start-popover.php:12
+msgid "Done! Pretty simple, huh? CCF PGP allows you to create extremely customizable forms, you just have to familiarize yourself with the plugin; this guide is a great way to get started quickly but doesn't make use of the myriad of possibilities."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:1
+msgid "Plugin Usage Popover"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:11
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:191
+msgid "Fixed Fields"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:23
+msgid "Import/Export"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:30
+msgid "Introduction"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:33
+msgid "CCF is an extremely intuitive plugin allowing you to create any type of contact form you can imagine. CCF is very user friendly but with possibilities comes complexity. It is recommend that you click the button below to create default fields, field options, and forms."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:34
+msgid "The default content will help you get a feel for the amazing things you can accomplish with this plugin. This popover only shows automatically the first time you visit the admin page;"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:36
+msgid "if you want to view this popover again, click the 'Show Plugin Usage Popover'"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:38
+msgid "in the instruction area of the admin page."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:44
+msgid "Below is a basic usage outline of the four pillars of this plugin: fields, field options, styles, and forms. Another useful part of the plugin is the 'Custom HTML Feature' which allows you to write the form HTML yourself using the plugin simply as a form processor; this is great if you are a web developer with HTML experience. Also explained below is the 'Saved Form Submissions' feature which displays all form submissions in the admin panel."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:52
+msgid "Fields are the actual input boxes in which users enter their information. There are six types of fields that you can attach to your forms.!"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:56
+msgid "Text:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:59
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:80
+msgid "This is a text field"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:63
+msgid "Date:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:66
+msgid "A Date field looks exactly the same as a Text field. But when a user clicks a Date field, a calender popover is displayed allowing a user to easily insert a date in to your form."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:70
+msgid "File:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:73
+msgid "This is a file field. Attaching on of these to your forms allows users to send files to you (files are also stored on your server). You can set a max upload size as well as limit the allowed file types."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:77
+msgid "Textarea:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:84
+msgid "Dropdown:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:89
+msgid "This is a dropdown field"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:92
+msgid "Field Option 2!"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:95
+msgid "Field Option 3!"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:98
+msgid "Field Option 4!"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:101
+msgid "Unlimited # of options allowed"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:107
+msgid "Radio:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:111
+msgid "A radio field"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:113
+msgid "Field Option 2"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:115
+msgid "Field Option 3"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:119
+msgid "Checkbox:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:123
+msgid "This is a checkbox field"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:127
+msgid "(advanced) Hidden:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:129
+msgid "These fields are hidden (obviously), they allow you to pass hidden information within your forms. Great for using other form processors like Aweber or InfusionSoft."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:133
+msgid "There are a variety of different options that you can use when creating a field,"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:135
+msgid "denotes something required:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:141
+msgid "A slug is simply a way to identify your field. It can only contain underscores, letters, and numbers and must be unique."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:151
+msgid "The six field types you can choose from are explained above."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:156
+msgid "This is the initial value of the field. If you set the type as checkbox, it is recommend you set this to what the checkbox is implying. For example if I were creating the checkbox 'Are you human?', I would set the initial value to 'Yes'. If you set the field type as 'Dropdown' or 'Radio', you should enter the slug of the field option you would like initially selected (or just leave it blank and the first option attached will be selected)."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:161
+msgid "This allows you to limit the amount of characters a user can enter in a field (does not apply to textareas as of version 3.5.5)"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:166
+msgid "If a field is required and a user leaves it blank, the plugin will display an error message explaining the problem. The user will then have to go back and fill in the field properly."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:171
+msgid "If this is filled out, a stylish tooltip popover displaying this text will show when the field is selected. This will only work if JQuery is enabled in general options."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:179
+msgid "(advanced) Field Class:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:181
+msgid "This allows you to assign a CSS class to an individual field without affecting anything else. This is a great way to take the customization of your form to the next level."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:184
+msgid "Field Options:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:186
+msgid "After you create a field, if it's field type is radio or dropdown, you can attach field options to the field. Field options are explained in the next section."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:194
+msgid "The last important thing related to fields are <span>Fixed Fields</span>. Fixed Fields are special fields that come already created within the plugin such as the captcha spam blocker and email field. Fixed Fields do special things that you wouldn't be able to accomplish with normal fields; they cannot be deleted or created. For example, if you use the fixedEmail field, as opposed to creating your own email field. the users email will be checked to make sure it is valid, if it isn't a form error will be displayed. Below is a list of fixed fields and their descriptions."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:197
+msgid "fixedEmail:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:197
+msgid "When attached to a form and set to required, this field will validate a user's email addresses. If a user's email is not valid, an error will be shown."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:198
+msgid "captcha:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:198
+msgid "This field helps prevent spam by prompting users to copy numbers displayed on an image. If a user copies the numbers incorrectly, the form will show an error."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:199
+msgid "fixedWebsite:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:199
+msgid "When attached to a form and set to required, this field will validate a user's website. If a user's website is not valid, an error will be shown."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:200
+msgid "emailSubject:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:200
+msgid "This lets a user enter in an email subject that will carry over as the subject of the email sent to you on form completion"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:201
+msgid "usaStates:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:201
+msgid "This field displays a dropdown of all the states in the US."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:202
+msgid "allCountries:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:202
+msgid "This field displays a dropdown of all the countries in the world."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:203
+msgid "resetButton:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:203
+msgid "Attaching this field adds a reset button right next to the submit button in your form."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:204
+msgid "ishuman:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:204
+msgid "This field helps prevent spam by prompting users to check a box to verify that they are human. If the box is left unchecked, an error will be displayed and the user will have to go back."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:212
+msgid "In the field section above, look at the radio or dropdown fields. See how they have multiple options within the field? Those are called Field Options. Field Options have their own manager. There are only three things you must fill in to create a field option."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:218
+msgid "Used to identify the field option, solely for admin purposes; must be unique, and contain only letters, numbers, and underscores. Example: 'slug_one'."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:223
+msgid "This is what is shown to the user in the dropdown or radio field."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:228
+msgid "This is the actual value of the option which isn't shown to the user. This can be the same thing as the label. An example pairing of label => value is: 'The color green' => 'green' or 'Yes' => '1'. The option value is behind the scences; unseen by the user, but when a user fills out the form, the option value is what is actually emailed to you and stored in the database. For dropdown fields the option value is optional, <span>for radio fields it is required</span>."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:232
+msgid "Please Select:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:232
+msgid "Option 1"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:232
+msgid "Option 2"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:233
+msgid "Dead options are only useful for required dropdown fields. The first field option \"Please Select\" would be a useful way to encorporate a dead option. Assume the field is required; if a user submitted that field and left it as \"Please Select:\", then the form would throw an error and the user would have to go back."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:237
+msgid "Once you create field options, you can attach them (in the field manager) to radio and dropdown fields (that are already created). It is important to remember that after you create a dropdown or radio field, they will not work until you attach one or more field options."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:245
+msgid "Forms bring everything together. Each form you create in the form manager shows a code to display that form in posts/pages as well as theme files. The post/page form display code looks like: [ccfpgp id=FORMID]. There are a number of parameters that you can fill out when creating and managing each of your forms."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:251
+msgid "A slug is simply a way to identify your form. It can only contain underscores, letters, and numbers and must be unique. Example 'my_contact_form'"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:256
+msgid "The form title is heading text shown at the top of the form to users. Here's an example: 'My Contact Form'."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:259
+msgid "Form Method:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:261
+msgid "If you don't know what this is leave it as 'Post'. This allows you to change the way a form sends user information."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:264
+msgid "Form Action:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:266
+msgid "This allows you to process your forms using 3rd party services or your own scripts. If you don't know what this is, then leave it blank. This is useful if you use a service like Aweber or InfusionSoft."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:271
+msgid "This allows you to apply styles you create in the style manager to your forms. If you haven't created a custom style yet, just choose 'Default'."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:276
+msgid "Here, you can specify the text that shows on the submit button."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:279
+msgid "Custom Code:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:281
+msgid "If unsure, leave blank. This field allows you to insert custom HTML directly after the starting form tag."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:286
+msgid "Specify the email address(es) that should receive all form submissions. Seperate multiple email addresses with semi-colons (ex: email1@gmail.com;email2@gmail.com;email3@gmail.com). If you leave this blank it will revert to the default specified in general settings. You can set forms not to send email in General Settings."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:291
+msgid "Will be displayed in a popover after the form is filled out successfully when no custom success page is specified; if left blank it will use the default specified in general settings."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:301
+msgid "If this is filled out, users will be sent to this page when they successfully fill out the form. If it is left blank, a popover showing the form's 'success message' will be displayed on successful form submission."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:304
+msgid "Email From Name:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:306
+msgid "The email sent to you on form completion will be from this name. If this is left blank, it will default to the 'Default From Name' provided in General Settings."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:309
+msgid "Email Subject:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:311
+msgid "This is the subject of the email that will be sent to you on form completion. If this is left blank, it will default to the 'Default Email Subject' provided in General Settings."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:314
+msgid "Can View Form:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:316
+msgid "This lets you choose which types of users can view your form. If you want everyone to see the form, check all the boxes. If a user doesn't have access to the form, they will not be able to see it."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:319
+msgid "Attach Fields:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:321
+msgid "After creating a form you are given the option to attach (and detach) fields to that specific form. Forms are useless until you attach fields."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:325
+msgid "The form success message and success title apply to a popover that fades in after someone successfully completes a form (that does not have a custom success URL provided). The image below will help to give you a feel to how the popover will look and where the title and message actually show up."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:331
+msgid "Style Manager"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:334
+msgid "The style manager allows you to customize the appearance of forms without any knowledge of CSS. There are a ton of parameters you can fill out with each style and all of them are pretty self-explanitory. After you create a style, you need to go to the form manager and set the form style to the new style you created (the slug will be what shows in the 'Form Style' dropdown)."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:337
+msgid "The image below will help you better understand how each style option will change your forms."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:343
+msgid "Custom HTML Forms Feature (advanced)"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:346
+msgid "If you know HTML and simply want to use this plugin to process form requests, this feature is for you. The following HTML is a the framework to which you must adhere. In order for your form to work you MUST do the following:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:350
+msgid "Keep the form action/method the same (yes the action is supposed to be empty)."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:353
+msgid "Include all the hidden fields shown below."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:356
+msgid "Provide a hidden field with a success message or thank you page (both hidden fields are included below, you must choose one or the other and fill in the value part of the input field appropriately)."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:360
+msgid "Just to be clear, you don't edit the code in the Custom HTML Forms feature within the admin panel. Instead, you copy the code in to the page, post, or theme file you want to display a form, then edit the code to look how you want following the guidelines provided above."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:368
+msgid "This features saves each user form submission. All the fields attached to the form along with the time of submission and form URL are saved in the database and displayed in a stylish format in the admin panel."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:373
+msgid "Import / Export"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:376
+msgid "Import/export is a new feature that allows you to transfer forms, fields, field options, styles and everything else saved by the plugin between Wordpress installations. "
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:377
+msgid "Clicking the Export All button will create a .SQL file for download. With the .SQL export file you can use the importer within the CCF plugin admin page to import the .SQL file. "
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:378
+msgid "The built-in importer is completely safe as long as you only import files that have been generated by the CCF exporter. "
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:379
+msgid "You can also use PHPMyAdmin or any other MySQL database administration tool to run the import file. Importing a .SQL file will never overwrite any existing data. "
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:380
+msgid "It is strongly recommended that you import CCFPGP.SQL files using the built-in importer with in the admin panel due to the added complexity of importing using alterative methods."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:381
+msgid "If you are importing without using the built-in importer (such as PHPMyAdmin), then note the following: You should only run the import file on Wordpress installations that already have CCF PGP installed; also you will need to change the table prefix for each query within the .SQL file."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:383
+msgid "CCF PGP allows you to import data in different ways."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:385
+msgid "Clear and Import:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:385
+msgid "This is the safest way to import because it deletes all current content before importing. This is important because it prevents occurences of conflicting data ID's or slugs."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:387
+msgid "You can also export data in different ways."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:389
+msgid "Export All:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:389
+msgid "This exports all CCF PGP data including your general settings in SQL format. This is allows you to easily create backups."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:390
+msgid "Export All Saved Form Submission to CSV:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:390
+msgid "This exports all your saved form submissions into a .CSV file. Since this export contains multiple forms that are assumed to have different fields, this export will only contain the value of each field and not the name of that field."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:391
+msgid "Export Specific Form's: Submissions to CSV:"
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:391
+msgid "This exports a specific form's saved form submissions. This CSV export will probably more useful to you because it will contain the name of fields as well as the values. This export works best on forms that have fields that have remained completely constant throughout submission."
+msgstr ""
+
+#: ../modules/usage_popover/ccf-pgp-usage-popover.php:393
+msgid "More import/export methods will be added in the future. Always create a backup before attempting an import! * Note: If you are having problems getting the importer/exporter to work, try CHMODing the import/ and export/ directories to 0777."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:24
+msgid "Please enter your full name."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:26
+msgid "When Should I Contact You:"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:27
+msgid "Please choose a date you would like to be contacted."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:30
+msgid "Enter any message or comment."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:32
+msgid "Your Phone Number:"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:33
+msgid "Please enter your phone number."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:35
+msgid "Did you find my website through Google?"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:36
+msgid "If you found my website through Google, check this box."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:38
+msgid "How should we contact you?"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:39
+msgid "By which method we should contact you?"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:46
+msgid "By Email"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:47
+msgid "By Phone"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:48
+msgid "Do Not Contact Me"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:49
+msgid "Yes, I did."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:50
+msgid "Contact Form"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:51
+msgid "Thank you for filling out our contact form. We will be contacting you very soon."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-default-db.php:52
+msgid "Thank You!"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-db.php:424
+msgid "Non-Registered User"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:143
+msgid "Form Success!"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:228
+msgid "Type the numbers."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:228
+msgid "Type the numbers displayed in the image above."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:229
+msgid "Check if you are human."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:229
+msgid "This helps us prevent spam."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:230
+msgid "Your Email"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:230
+msgid "Please enter your email address."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:231
+msgid "Your Website"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:231
+msgid "Please enter your website."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:232
+msgid "Email Subject"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:232
+msgid "Please enter a subject for the email."
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:233
+msgid "Reset Form"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:234
+msgid "Select a State"
+msgstr ""
+
+#: ../modules/db/ccf-pgp-activate-db.php:235
+msgid "Select a Country"
+msgstr ""
+
