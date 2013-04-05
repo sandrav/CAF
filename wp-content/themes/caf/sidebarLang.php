@@ -1,5 +1,4 @@
 <!-- TEMPLATE SIDEBARLANG-->
-<div id="sidebar">
 <ul>
 <?php
 if(function_exists('dynamic_sidebar')){
@@ -7,4 +6,3 @@ if(function_exists('dynamic_sidebar')){
 }
 ?>
 </ul>
-</div>
