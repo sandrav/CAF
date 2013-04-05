@@ -258,8 +258,6 @@ add_action('wp_before_admin_bar_render',	'qtrans_fixAdminBar');
 // Hooks (execution time critical filters) 
 add_filter('the_content',					'qtrans_useCurrentLanguageIfNotFoundShowAvailable', 0);
 add_filter('the_excerpt',					'qtrans_useCurrentLanguageIfNotFoundShowAvailable', 0);
-//agregado para tener las 2 funcs the_excerpt y get_the_excerpt andando
-add_filter('get_the_excerpt', 				'qtrans_useCurrentLanguageIfNotFoundShowAvailable', 0);
 add_filter('the_excerpt_rss',				'qtrans_useCurrentLanguageIfNotFoundShowAvailable', 0);
 add_filter('sanitize_title',				'qtrans_useRawTitle',0, 3);
 add_filter('comment_moderation_subject',	'qtrans_useDefaultLanguage',0);

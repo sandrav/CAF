@@ -420,22 +420,6 @@ function qtrans_strftime($format, $date, $default = '', $before = '', $after = '
 	$search = array();
 	$replace = array();
 	
-	//
-	global $wp_locale;
-if ( !empty( $wp_locale->weekday )) { 
-   $search[] = '/(([^%])%A|^%A)/'; $replace[] =
-      '${2}'.$wp_locale->get_weekday(date('w', $date)); // date l
-   $search[] = '/(([^%])%a|^%a)/'; $replace[] =
-      '${2}'.$wp_locale->get_weekday_abbrev(date('w', $date)); // date D
-}
-if ( !empty( $wp_locale->month )) { 
-   $search[] = '/(([^%])%B|^%B)/'; $replace[] =
-      '${2}'.$wp_locale->get_month(date('m', $date)); // date F
-   $search[] = '/(([^%])%b|^%b)/'; $replace[] =
-      '${2}'.$wp_locale->get_month_abbrev(date('m', $date)); // date M
-}
-	
-	//
 	// date S
 	$search[] = '/(([^%])%q|^%q)/';
 	if($day==1||$day==21||$day==31) { 

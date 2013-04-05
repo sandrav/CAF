@@ -28,6 +28,11 @@ if ( isset($_POST['s2_admin']) && 'mail' == $_POST['s2_admin'] ) {
 			$recipients = $this->get_registered("cats=$cat");
 		} elseif ( 'all_users' == $_POST['what'] ) {
 			$recipients = $this->get_all_registered();
+		} elseif ( 'all' == $_POST['what'] ) {
+			$confirmed = $this->get_public();
+			$unconfirmed = $this->get_public(0);
+			$registered = $this->get_all_registered();
+			$recipients = array_merge((array)$confirmed, (array)$unconfirmed, (array)$registered);
 		} else {
 			$recipients = $this->get_registered();
 		}
@@ -71,10 +76,10 @@ echo "<p>" . __('Subject', 'subscribe2') . ": <input type=\"text\" size=\"69\" n
 echo "<textarea rows=\"12\" cols=\"75\" name=\"content\">" . $body . "</textarea>";
 echo "<br /><br />\r\n";
 echo __('Recipients:', 'subscribe2') . " ";
-$this->display_subscriber_dropdown('registered', false, array('all'));
+$this->display_subscriber_dropdown('registered', false);
 echo "<input type=\"hidden\" name=\"s2_admin\" value=\"mail\" />";
 echo "</p>";
-echo "<p class=\"submit\"><input type=\"submit\" class=\"button-secondary\" name=\"preview\" value=\""  . __('Preview', 'subscribe2') . "\" /><input type=\"submit\" class=\"button-primary\" name=\"send\" value=\"" . __('Send', 'subscribe2') . "\" /></p>";
+echo "<p class=\"submit\"><input type=\"submit\" class=\"button-secondary\" name=\"preview\" value=\""  . __('Preview', 'subscribe2') . "\" />&nbsp;<input type=\"submit\" class=\"button-primary\" name=\"send\" value=\"" . __('Send', 'subscribe2') . "\" /></p>";
 echo "</form></div>\r\n";
 echo "<div style=\"clear: both;\"><p>&nbsp;</p></div>";
 

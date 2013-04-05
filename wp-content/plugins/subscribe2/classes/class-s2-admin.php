@@ -5,7 +5,7 @@ class s2_admin extends s2class {
 	Hook the menu
 	*/
 	function admin_menu() {
-		add_menu_page (__('Subscribe2', 'subscribe2'), __('Subscribe2', 'subscribe2'), apply_filters('s2_capability', "read", 'user'), 's2', NULL, S2URL . 'include/email_edit.png');
+		add_menu_page(__('Subscribe2', 'subscribe2'), __('Subscribe2', 'subscribe2'), apply_filters('s2_capability', "read", 'user'), 's2', NULL, S2URL . 'include/email_edit.png');
 
 		$s2user = add_submenu_page('s2', __('Your Subscriptions', 'subscribe2'), __('Your Subscriptions', 'subscribe2'), apply_filters('s2_capability', "read", 'user'), 's2', array(&$this, 'user_menu'), S2URL . 'include/email_edit.png');
 		add_action("admin_print_scripts-$s2user", array(&$this, 'checkbox_form_js'));
@@ -45,7 +45,7 @@ class s2_admin extends s2class {
 	} // end user_admin_css()
 
 	function option_form_js() {
-		wp_register_script('s2_edit', S2URL . 'include/s2_edit' . $this->script_debug . '.js', array('jquery'), '1.0');
+		wp_register_script('s2_edit', S2URL . 'include/s2_edit' . $this->script_debug . '.js', array('jquery'), '1.1');
 		wp_enqueue_script('s2_edit');
 	} // end option_form_js()
 
@@ -230,15 +230,20 @@ class s2_admin extends s2class {
 				echo " /> <abbr title=\"" . $cat->slug . "\">" . $catName . "</abbr></label><br />\r\n";
 			} else {
 				echo "<label><input class=\"checkall_" . $name . "\" type=\"checkbox\" name=\"" . $name . "[]\" value=\"" . $cat->term_id . "\"";
-				if ( in_array($cat->term_id, $selected) && !in_array($cat->term_id, $compulsory) ) {
+				if ( in_array($cat->term_id, $selected) || in_array($cat->term_id, $compulsory) ) {
 					echo " checked=\"checked\"";
 				}
-				if ( in_array($cat->term_id, $compulsory) ) {
-					echo " checked=\"checked\" DISABLED";
+				if ( in_array($cat->term_id, $compulsory) && $name === 'category' ) {
+					echo " DISABLED";
 				}
 				echo " /> <abbr title=\"" . $cat->slug . "\">" . $catName . "</abbr></label><br />\r\n";
 			}
 			$i++;
+		}
+		if ( !empty($compulsory) ) {
+			foreach ($compulsory as $cat) {
+				echo "<input type=\"hidden\" name=\"" . $name . "[]\" value=\"" . $cat . "\">\r\n";
+			}
 		}
 		echo "</td></tr>\r\n";
 		echo "</table>\r\n";
@@ -607,7 +612,7 @@ class s2_admin extends s2class {
 		$ids = $wpdb->get_col("SELECT ID FROM $wpdb->users WHERE user_email IN ($useremails)");
 		$ids = implode(',', array_map(array($this, 'prepare_in_data'), $ids));
 		$sql = "UPDATE $wpdb->usermeta SET meta_value='{$format}' WHERE meta_key='" . $this->get_usermeta_keyname('s2_format') . "' AND user_id IN ($ids)";
-		$wpdb->get_results($sql);
+		$wpdb->query($sql);
 	} // end format_change()
 
 	/**
