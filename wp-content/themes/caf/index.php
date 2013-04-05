@@ -51,7 +51,6 @@
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<?php include (TEMPLATEPATH . '/sidebarLang.php'); ?>
-			<!--<a class="sideLink" href="#">Suscribirse »</a>-->
 		</div>
 		<div id="about" class="sideBox">
 			<div class="sideBoxTop"></div>	
