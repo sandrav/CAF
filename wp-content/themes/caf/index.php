@@ -67,7 +67,7 @@
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
 					<h2 class="sideTitle"><?php _e('Sumate al CAF','CAF') ?></h2>
-					<a target="_blank" href="https://www.resnonverba.org/forms/v2/cafsantaclotilde/1/espanol" title="Don&aacute; ahora" class="donaAhora"><?php _e('Doná ahora', 'CAF') ?> </a>
+					<a target="_blank" href="https://donaronline.org/caf-santa-clotilde/sumate-al-caf" title="Don&aacute; ahora" class="donaAhora"><?php _e('Doná ahora', 'CAF') ?> </a>
 					<a href="<?php bloginfo('siteurl'); ?>/como-ayudar/donaciones/" title="Conocé cómo podés ayudarnos"><?php _e('Conocé cómo podés ayudarnos','CAF') ?></a>
 				</div>			
 			<div class="sideBoxBotton"></div>
