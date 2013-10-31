@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title><?php wp_title('-', true, 'right'); ?> <?php bloginfo('name'); ?></title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <?php wp_head(); ?>
 <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/jquery.slideshow.min.js"></script>
@@ -34,13 +35,13 @@
 					<span class="displayNone">Centro de Ayuda Familiar - Santa Clotilde</span>
 				</a>
 			</h1>		
-			<div id="social"><a href="<?php bloginfo('siteurl'); ?>/como-ayudar/contacto/" class="contacto"><?php _e('Contacto','CAF') ?></a>
+			<div id="social"><a href="<?php bloginfo('siteurl'); ?>/como-ayudar/contacto/" class="contacto"><?php _e('Contact','CAF') ?></a>
 				<a id="icon-twitter" href="http://www.twitter.com/CAFStaClotilde" target="_blank" title="Twitter"><span class="displayNone">Twitter</span></a>
 				<a id="icon-facebook" href="http://www.facebook.com/home.php?#!/pages/CAF-Santa-Clotilde/209306331250?ref=ts" target="_blank" title="Facebook"><span class="displayNone">Facebook</span></a>
 			</div>
 			<div id="hMenu">
 				<ul>
-					<li class="page_item"><a title="Inicio" href="<?php bloginfo('siteurl'); ?>"><?php _e('Inicio','CAF')?></a></li>
+					<li class="page_item"><a title="<?php _e('Home','CAF')?>" href="<?php bloginfo('siteurl'); ?>"><?php _e('Home','CAF')?></a></li>
 					<?php wp_list_pages('depth=1&title_li='); ?>
 				</ul>
 			</div>

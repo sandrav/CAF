@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caf\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-13 17:11-0300\n"
-"PO-Revision-Date: 2012-11-13 17:11-0300\n"
+"POT-Creation-Date: 2013-10-31 13:33-0300\n"
+"PO-Revision-Date: 2013-10-31 13:35-0300\n"
 "Last-Translator: Sandra Vega <sandra.vega.ux@gmail.com>\n"
 "Language-Team: \n"
 "Language: \n"
@@ -17,14 +17,18 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../header.php:42
-msgid "Inicio"
-msgstr "Home"
+#: ../header.php:38
+msgid "Contact"
+msgstr "Contacto"
+
+#: ../header.php:44
+msgid "Home"
+msgstr "Inicio"
 
 #: ../date.php:7
 #: ../page-novedades.php:13
 msgid "NotiCAF"
-msgstr ""
+msgstr "NotiCAF"
 
 #: ../date.php:7
 #: ../date.php:37
@@ -32,8 +36,8 @@ msgstr ""
 #: ../page-formulario.php:35
 #: ../tag.php:38
 #: ../single.php:35
-msgid "Archivo"
-msgstr "Archive"
+msgid "Archive"
+msgstr "Archivo"
 
 #: ../date.php:17
 #: ../index.php:17
@@ -41,88 +45,153 @@ msgstr "Archive"
 #: ../page-novedades.php:23
 #: ../page-formulario.php:15
 #: ../tag.php:17
-#: ../page-sub.php:33
-msgid "Leer completo »"
-msgstr "Read more »"
+#: ../single.php:14
+#: ../page-sub.php:32
+msgid "Read more"
+msgstr "Leer completo"
 
 #: ../date.php:29
+#: ../index.php:50
 #: ../page-novedades.php:35
 #: ../page-formulario.php:27
 #: ../tag.php:29
 #: ../single.php:27
-msgid "Recibir Noticias"
-msgstr "Get the News"
+msgid "Get the News"
+msgstr "Recibir noticias"
 
 #: ../date.php:47
 #: ../page-novedades.php:53
 #: ../page-formulario.php:45
 #: ../tag.php:48
 #: ../single.php:45
-msgid "Etiquetas"
-msgstr "Labels"
+msgid "Labels"
+msgstr "Etiquetas"
 
 #: ../index.php:7
-msgid "Novedades"
-msgstr "News"
+msgid "News"
+msgstr "Novedades"
 
 #: ../index.php:8
-msgid "Ver todas las novedades en NotiCAF"
-msgstr ""
+msgid "See all NotiCAF news"
+msgstr "Ver todas las novedades en NotiCAF"
 
 #: ../index.php:20
 #: ../page.php:31
+#: ../page-formulario.php:17
 #: ../single.php:17
-#: ../page-sub.php:35
-#, fuzzy
-msgid "No se encontró ningún resultado para esta búsqueda."
-msgstr "Sorry, no posts matched your criteria."
+#: ../page-sub.php:34
+msgid "Results not found"
+msgstr "No se encontró ningún resultado para esta búsqueda."
 
 #: ../index.php:27
-msgid "¿Qué hacemos?"
-msgstr ""
+msgid "What We Do"
+msgstr "¿Qué hacemos?"
 
 #: ../index.php:31
-msgid "Contamos con distintos servicios y programas que se adaptan a las necesidades de cada chico."
-msgstr ""
+msgid "our programs"
+msgstr "Contamos con distintos servicios y programas que se adaptan a las necesidades de cada chico."
 
 #: ../index.php:40
-msgid "Más información"
-msgstr "More info"
+msgid "More information"
+msgstr "Más información"
 
-#: ../index.php:50
-msgid "Recibir noticias"
-msgstr ""
+#: ../index.php:58
+msgid "About us"
+msgstr "Sobre nosotros"
 
-#: ../index.php:59
-msgid "Sobre nosotros"
-msgstr "About us"
+#: ../index.php:61
+msgid "commitment"
+msgstr "En el Centro de Apoyo Familiar (CAF) Santa Clotilde nos comprometemos para que los niños y jóvenes del barrio Las Tunas puedan acceder a una educación integral y de calidad, con énfasis no sólo en lo pedagógico y académico, sino también en el apoyo y contención personal."
 
 #: ../index.php:62
-msgid "En el Centro de Apoyo Familiar (CAF) Santa Clotilde nos comprometemos para que los niños y jóvenes del barrio Las Tunas puedan acceder a una educación integral y de calidad, con énfasis no sólo en lo pedagógico y académico, sino también en el apoyo y contención personal."
-msgstr ""
-
-#: ../index.php:63
 #: ../tag.php:33
-msgid "Conocenos más"
-msgstr ""
+msgid "Know more about us"
+msgstr "Conocénos más"
+
+#: ../index.php:68
+msgid "Join CAF"
+msgstr "Sumate al CAF"
 
 #: ../index.php:69
-msgid "Sumate al CAF"
-msgstr ""
+msgid "Donate now"
+msgstr "Doná ahora"
 
-#: ../index.php:71
-msgid "Conocé cómo podés ayudarnos"
-msgstr ""
-
-#: ../page-formulario.php:17
-msgid "No se encontró ningún resultado para esta búsqueda"
-msgstr "Sorry, no posts matched your criteria."
-
-#: ../single.php:14
-msgid "Leer completo"
-msgstr "Read more"
+#: ../index.php:70
+msgid "Learn how to help us"
+msgstr "Conocé cómo podés ayudarnos"
 
 #: ../footer.php:11
-msgid "Teléfonos"
-msgstr "Phones"
+msgid "Phones"
+msgstr "Teléfonos"
 
+#~ msgid "Sumate al CAF"
+#~ msgstr "Sumate al CAF"
+
+#~ msgid "Ver todas las novedades en NotiCAF"
+#~ msgstr "Ver todas las novedades en NotiCAF"
+
+#~ msgid "Novedades"
+#~ msgstr "Novedades"
+
+#~ msgid "Recibir Noticias"
+#~ msgstr "Recibir Noticias"
+
+#~ msgid "Etiquetas"
+#~ msgstr "Etiquetas"
+
+#~ msgid "Inicio"
+#~ msgstr "Inicio"
+
+#, fuzzy
+#~ msgid "Conoce como podes ayudarnos"
+#~ msgstr "Conocé cómo podés ayudarnos"
+
+#, fuzzy
+#~ msgid "Conocenos mas"
+#~ msgstr "Conocenos más"
+
+#, fuzzy
+#~ msgid "Que hacemos?"
+#~ msgstr "¿Qué hacemos?"
+
+#~ msgid "Sobre nosotros"
+#~ msgstr "About us"
+
+#~ msgid ""
+#~ "Contamos con distintos servicios y programas que se adaptan a las "
+#~ "necesidades de cada chico."
+#~ msgstr ""
+#~ "Contamos con distintos servicios y programas que se adaptan a las "
+#~ "necesidades de cada chico."
+
+#~ msgid "Leer completo »"
+#~ msgstr "Leer completo »"
+
+#~ msgid "Leer completo"
+#~ msgstr "Leer completo"
+
+#~ msgid "Teléfonos"
+#~ msgstr "Teléfonos"
+
+#~ msgid "No se encontró ningún resultado para esta búsqueda."
+#~ msgstr "No se encontró ningún resultado para esta búsqueda."
+
+#~ msgid "No se encontró ningún resultado para esta búsqueda"
+#~ msgstr "No se encontró ningún resultado para esta búsqueda"
+
+#~ msgid "Conocenos más"
+#~ msgstr "Conocenos más"
+
+#~ msgid "Recibir noticias"
+#~ msgstr "Recibir noticias"
+
+#~ msgid ""
+#~ "En el Centro de Apoyo Familiar (CAF) Santa Clotilde nos comprometemos "
+#~ "para que los niños y jóvenes del barrio Las Tunas puedan acceder a una "
+#~ "educación integral y de calidad, con énfasis no sólo en lo pedagógico y "
+#~ "académico, sino también en el apoyo y contención personal."
+#~ msgstr ""
+#~ "AAAEn el Centro de Apoyo Familiar (CAF) Santa Clotilde nos comprometemos "
+#~ "para que los niños y jóvenes del barrio Las Tunas puedan acceder a una "
+#~ "educación integral y de calidad, con énfasis no sólo en lo pedagógico y "
+#~ "académico, sino también en el apoyo y contención personal."

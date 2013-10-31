@@ -29,9 +29,9 @@ Template Name: sub
 		<h1 class="subpageTitle"><?php the_title(); ?></h1>
 		<?php if (have_posts()) : ?>
 			<?php $i = 1; while (have_posts() && $i < 3) : the_post(); ?>					
-				<?php the_content(__('Leer completo »','CAF')); ?>				
+				<?php the_content(__('Read more','CAF').' &raquo;'); ?> 				
 			<?php $i++; endwhile; else: ?>
-			<?php _e('No se encontró ningún resultado para esta búsqueda.','CAF'); ?>
+			<?php _e('Results not found','CAF'); ?>
 		<?php endif; ?>
 	</div>
 </div>   

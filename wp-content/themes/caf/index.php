@@ -4,8 +4,8 @@
 	<div id="col1">
 		<div class="postsContainerTop"></div>
 		<div id="postsContainer">
-			<h2 id="novedades-title"><?php _e('Novedades','CAF') ?></h2>
-			<a href="<?php bloginfo('siteurl'); ?>/noticaf" title="Ver todas las novedades en NotiCAF" class="novedades"><?php _e('Ver todas las novedades en NotiCAF','CAF') ?></a>
+			<h2 id="novedades-title"><?php _e('News','CAF') ?></h2>
+			<a href="<?php bloginfo('siteurl'); ?>/noticaf" title="See all NotiCAF news" class="novedades"><?php _e('See all NotiCAF news','CAF') ?></a>
 			<?php if (have_posts()) : ?>
 			<?php $i = 1; while (have_posts() && $i < 3) : the_post(); ?>
 				<div class="post">       
@@ -14,21 +14,21 @@
 					</h2>
 					<span class="postDate"><?php the_time('l j F Y'); ?></span>
 					<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array( 110,110 )) ?></a>
-					<?php the_content(__('Leer completo »', 'CAF')); ?>       
+					<?php the_content(__('Read more','CAF').' &raquo;'); ?>  
 				</div>		
 			<?php $i++; endwhile; else: ?>
-			<?php _e('No se encontró ningún resultado para esta búsqueda.', 'CAF'); ?>
+			<?php _e('Results not found', 'CAF'); ?>
 			<?php endif; ?>
 		</div>
 		<div class="postsContainerBottom"></div>
 		<div id="infoQueHacemos" class="clearfix">
 			<div class="bigSideBoxTop"></div>
 			<div class="bigSideBoxContent">
-				<h2><?php _e('¿Qué hacemos?','CAF') ?></h2>
+				<h2><?php _e('What We Do','CAF') ?></h2>
 			</div>
 			<div class="bigSideBoxBottom"></div>
 			<p id="slideShowList">
-				<?php _e('Contamos con distintos servicios y programas que se adaptan a las necesidades de cada chico.','CAF') ?>
+				<?php _e('our programs','CAF') ?>
 			</p>
 			<div id="slideshow">
 				<img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2011/08/slide1.png" alt="" />
@@ -37,7 +37,7 @@
 				<img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2011/08/slide4.png" alt="" />
 				<img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2011/08/slide5.png" alt="" />
 			</div>
-			<a href="<?php bloginfo('siteurl'); ?>/que-hacemos/" title="M&aacute;s informaci&oacute;n"><?php _e('Más información','CAF')?> »</a>
+			<a href="<?php bloginfo('siteurl'); ?>/que-hacemos/" title="<?php _e('More information','CAF')?>"><?php _e('More information','CAF')?> &raquo;</a>
 		</div>
 	</div>
 	
@@ -47,7 +47,7 @@
 		<div id="suscribe" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Recibir Noticias','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('Get the News','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<?php include (TEMPLATEPATH . '/sidebarLang.php'); ?>
@@ -55,19 +55,19 @@
 		<div id="about" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Sobre nosotros','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('About us','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
-			<p><?php _e('En el Centro de Apoyo Familiar (CAF) Santa Clotilde nos comprometemos para que los niños y jóvenes del barrio Las Tunas puedan acceder a una educación integral y de calidad, con énfasis no sólo en lo pedagógico y académico, sino también en el apoyo y contención personal.','CAF') ?></p>
-			<a class="sideLink" href="<?php bloginfo('siteurl'); ?>/quienes-somos/sobre-el-caf/" title="¿quienes somos?"><?php _e('Conocenos más','CAF') ?> »</a>
+			<p><?php _e('commitment','CAF') ?></p>
+			<a class="sideLink" href="<?php bloginfo('siteurl'); ?>/quienes-somos/sobre-el-caf/" title="<?php _e('Know more about us','CAF') ?>"><?php _e('Know more about us','CAF') ?> &raquo;</a>
 		</div>	
 	</div>
 		<div id="sumate" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Sumate al CAF','CAF') ?></h2>
-					<a target="_blank" href="https://donaronline.org/caf-santa-clotilde/sumate-al-caf" title="Don&aacute; ahora" class="donaAhora"><?php _e('Doná ahora', 'CAF') ?> </a>
-					<a href="<?php bloginfo('siteurl'); ?>/como-ayudar/donaciones/" title="Conocé cómo podés ayudarnos"><?php _e('Conocé cómo podés ayudarnos','CAF') ?></a>
+					<h2 class="sideTitle"><?php _e('Join CAF','CAF') ?></h2>
+					<a target="_blank" href="https://donaronline.org/caf-santa-clotilde/sumate-al-caf" title="<?php _e('Donate now', 'CAF') ?>" class="donaAhora"><?php _e('Donate now', 'CAF') ?> </a>
+					<a href="<?php bloginfo('siteurl'); ?>/como-ayudar/donaciones/" title="<?php _e('Learn how to help us','CAF') ?>"><?php _e('Learn how to help us','CAF') ?></a>
 				</div>			
 			<div class="sideBoxBotton"></div>
 		</div>  

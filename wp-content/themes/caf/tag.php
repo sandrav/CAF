@@ -14,7 +14,7 @@
 					</h2>
 					<span class="postDate"><?php the_time('l j F Y'); ?></span>
 					<a href="<?php the_permalink() ?>"><?php the_post_thumbnail(array( 110,110 )) ?></a>
-					<?php the_content(__('Leer completo »','CAF')); ?>
+					<?php the_content(__('Read more','CAF').' &raquo;'); ?> 
 				</div>	
 			
 			<?php endwhile;	?>
@@ -26,16 +26,16 @@
 		<div id="suscribe" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Recibir Noticias','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('Get the News','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<?php include (TEMPLATEPATH . '/sidebarLang.php'); ?>
-			<a class="sideLink" href="#"><?php _e('Conocenos más','CAF')?> »</a>
+			<a class="sideLink" href="#"><?php _e('Know more about us','CAF')?> »</a>
 		</div>
 		<div id="" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Archivo','CAF')?></h2>
+					<h2 class="sideTitle"><?php _e('Archive','CAF')?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<ul class="sideLink">
@@ -45,7 +45,7 @@
 		<div id="" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Etiquetas','CAF')?></h2>
+					<h2 class="sideTitle"><?php _e('Labels','CAF')?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<ul class="sideLink">

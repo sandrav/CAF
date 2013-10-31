@@ -12,9 +12,9 @@ Template Name: formulario
 		<div id="postsContainer">
 			<?php if (have_posts()) : ?>
 			<?php $i = 1; while (have_posts() && $i < 3) : the_post(); ?>					
-				<?php the_content(__('Leer completo »', 'CAF')); ?>       				
+				<?php the_content(__('Read more','CAF').' &raquo;'); ?>				
 			<?php $i++; endwhile; else: ?>
-			<?php _e('No se encontró ningún resultado para esta búsqueda', 'CAF'); ?>
+			<?php _e('Results not found', 'CAF'); ?>
 		<?php endif; ?>
 		</div>
 		<div class="postsContainerBottom"></div>
@@ -24,7 +24,7 @@ Template Name: formulario
 		<div id="suscribe" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Recibir Noticias','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('Get the News','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<?php include (TEMPLATEPATH . '/sidebarLang.php'); ?>
@@ -32,7 +32,7 @@ Template Name: formulario
 		<div id="" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Archivo','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('Archive','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<ul class="sideLink">
@@ -42,7 +42,7 @@ Template Name: formulario
 		<div id="" class="sideBox">
 			<div class="sideBoxTop"></div>	
 				<div class="sideBoxContent">
-					<h2 class="sideTitle"><?php _e('Etiquetas','CAF') ?></h2>
+					<h2 class="sideTitle"><?php _e('Labels','CAF') ?></h2>
 				</div>			
 			<div class="sideBoxBotton"></div>
 			<ul class="sideLink">

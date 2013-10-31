@@ -8,7 +8,7 @@
 					Freire 3326, Las Tunas, General Pacheco, Tigre. CP (1617). Provincia de Buenos Aires, Argentina. <br />
 				</p>
 				<p class="address">
-					<?php _e('Teléfonos','CAF') ?>: (03327) 443741 | (011) 15-4844-4426
+					<?php _e('Phones','CAF') ?>: (03327) 443741 | (011) 15-4844-4426
 				</p>
 				<p class="info">				
 					Mail: <a href="mailto:info@cafsantaclotilde.org.ar">info@cafsantaclotilde.org.ar</a>
