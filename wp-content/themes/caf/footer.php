@@ -11,7 +11,7 @@
 					<?php _e('Phones','CAF') ?>: (03327) 443741 | (011) 15-4844-4426
 				</p>
 				<p class="info">				
-					Mail: <a href="mailto:info@cafsantaclotilde.org.ar">info@cafsantaclotilde.org.ar</a>
+					Mail: <a href="mailto:amigosdelcaf@cafsantaclotilde.org.ar">amigosdelcaf@cafsantaclotilde.org.ar</a>
 				</p>
 				<div id="logo">
 					<p id="caf"><span>Centro de Apoyo Familiar - Santa Clotilde</span></p>

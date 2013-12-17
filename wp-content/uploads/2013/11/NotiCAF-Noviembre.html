@@ -1,0 +1,852 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <!-- Facebook sharing information tags -->
+        <meta property="og:title" content="*|MC:SUBJECT|*" />
+        
+        <title>*|MC:SUBJECT|*</title>
+		<style type="text/css">
+			/* Client-specific Styles */
+			#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" button. */
+			body{width:100% !important;} /* Force Hotmail to display emails at full width */
+			body{-webkit-text-size-adjust:none;} /* Prevent Webkit platforms from changing default text sizes. */
+			
+			/* Reset Styles */
+			body{margin:0; padding:0;}
+			img{border:none; font-size:14px; font-weight:bold; height:auto; line-height:100%; outline:none; text-decoration:none; text-transform:capitalize;}
+			#backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;}
+			
+			/* Template Styles */
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COMMON PAGE ELEMENTS /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Page
+			* @section background color
+			* @tip Set the background color for your email. You may want to choose one that matches your company's branding.
+			* @theme page
+			*/
+			body, #backgroundTable{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+			
+			/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+			#templateContainer{
+				/*@editable*/ border: 1px solid #DDDDDD;
+			}
+			
+			/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+			h1, .h1{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+			h2, .h2{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:30px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+			h3, .h3{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:26px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+
+			/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+			h4, .h4{
+				/*@editable*/ color:#202020;
+				display:block;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:22px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				margin-top:0;
+				margin-right:0;
+				margin-bottom:10px;
+				margin-left:0;
+				/*@editable*/ text-align:left;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: PREHEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color for your email's preheader area.
+			* @theme page
+			*/
+			#templatePreheader{
+				/*@editable*/ background-color:#FAFAFA;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+			.preheaderContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:10px;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+			.preheaderContent div a:link, .preheaderContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: HEADER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and border for your email's header area.
+			* @theme header
+			*/
+			#templateHeader{
+				/*@editable*/ background-color:#D8E2EA;
+				/*@editable*/ border-bottom:0;
+			}
+			
+			/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+			.headerContent{
+				/*@editable*/ color:#202020;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:34px;
+				/*@editable*/ font-weight:bold;
+				/*@editable*/ line-height:100%;
+				/*@editable*/ padding:0;
+				/*@editable*/ text-align:center;
+				/*@editable*/ vertical-align:middle;
+			}
+			
+			/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+			.headerContent a:link, .headerContent a:visited{
+	/*@editable*/ color:#FFF;
+	/*@editable*/ font-weight:normal;
+	/*@editable*/ text-decoration:none;
+			}
+			
+			#headerImage{
+				height:auto;
+				max-width:600px;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: COLUMNS; LEFT, CENTER, RIGHT /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column text. Choose a size and color that is easy to read.
+			*/
+			.leftColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column links. Choose a color that helps them stand out from your text.
+			*/
+			.leftColumnContent div a:link, .leftColumnContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.leftColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column text
+			* @tip Set the styling for your email's center column text. Choose a size and color that is easy to read.
+			*/
+			.centerColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section center column link
+			* @tip Set the styling for your email's center column links. Choose a color that helps them stand out from your text.
+			*/
+			.centerColumnContent div a:link, .centerColumnContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.centerColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent{
+				/*@editable*/ background-color:#FFFFFF;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column text. Choose a size and color that is easy to read.
+			*/
+			.rightColumnContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column links. Choose a color that helps them stand out from your text.
+			*/
+			.rightColumnContent div a:link, .rightColumnContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.rightColumnContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: MAIN BODY /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color for your email's body area.
+			*/
+			#templateContainer, .bodyContent{
+	/*@editable*/ background-color:#FDFDFD;
+	background-image: url(http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Borde.gif);
+			}
+			
+			/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+			.bodyContent div{
+				/*@editable*/ color:#505050;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:14px;
+				/*@editable*/ line-height:150%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+			.bodyContent div a:link, .bodyContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.bodyContent img{
+				display:inline;
+				height:auto;
+			}
+			
+			/* /\/\/\/\/\/\/\/\/\/\ STANDARD STYLING: FOOTER /\/\/\/\/\/\/\/\/\/\ */
+			
+			/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and top border for your email's footer area.
+			* @theme footer
+			*/
+			#templateFooter{
+				/*@editable*/ background-color:#FDFDFD;
+				/*@editable*/ border-top:0;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+			.footerContent div{
+				/*@editable*/ color:#707070;
+				/*@editable*/ font-family:Arial;
+				/*@editable*/ font-size:12px;
+				/*@editable*/ line-height:125%;
+				/*@editable*/ text-align:left;
+			}
+			
+			/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+			.footerContent div a:link, .footerContent div a:visited{
+				/*@editable*/ color:#336699;
+				/*@editable*/ font-weight:normal;
+				/*@editable*/ text-decoration:underline;
+			}
+			
+			.footerContent img{
+				display:inline;
+			}
+			
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			* @theme footer
+			*/
+			#social{
+				/*@editable*/ background-color:#FAFAFA;
+				/*@editable*/ border:0;
+			}
+			
+			/**
+			* @tab Footer
+			* @section social bar style
+			* @tip Set the background color and border for your email's footer social bar.
+			*/
+			#social div{
+				/*@editable*/ text-align:center;
+			}
+			
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			* @theme footer
+			*/
+			#utility{
+				/*@editable*/ background-color:#FDFDFD;
+				/*@editable*/ border:0;
+			}
+
+			/**
+			* @tab Footer
+			* @section utility bar style
+			* @tip Set the background color and border for your email's footer utility bar.
+			*/
+			#utility div{
+				/*@editable*/ text-align:center;
+			}
+			
+			#monkeyRewards img{
+				max-width:190px;
+			}
+		</style>
+	</head>
+    <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+    	<center>
+        	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="backgroundTable">
+            	<tr>
+                	<td align="center" valign="top"><p align=center><font color=#00000 size=2 
+            face=Arial>Si no puede ver correctamente este email haga click <a href="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/NotiCAF-Noviembre.html">aquí</a></font>
+
+                        <!-- // Begin Template Preheader \\ -->
+                      
+                        <!-- // End Template Preheader \\ -->
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Header \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                                        <tr>
+                                            <td class="headerContent">
+                                            
+                                            	<!-- // Begin Module: Standard Header Image \\ -->
+                                                
+                                            	<img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/header1.gif" style="max-width:603px;" id="headerImage campaign-icon" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext />                                         
+                                                                                                                                           	<!-- // End Module: Standard Header Image \\ -->
+                                            	
+                                                <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/rectangulo-info.gif" width="603" height="28" />
+            
+            
+                                                <div class="social-media" style="display: block; position: absolute; margin-center: 603px; margin-top: -40px;"> &nbsp
+                                                <a align=right><strong><font color=#ffffff size=1 
+            face=verdana>Newsletter del Centro de Apoyo Familar Santa 
+            Clotilde</font> </strong><font color=#ffffff size=1 face=verdana>| 
+            <font color=#ffffff size=1 face=verdana><strong>Nov. 2013 | N° 
+            29&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<a href="http://www.cafsantaclotilde.org.ar/"><strong>Sitio Web</strong></a> </strong> </font></a></font>            <!--Icono del sitio aca http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/09/MaPaz.jpg -->
+                                                    
+                                                    
+	                                            	<a style="TEXT-DECORATION: " href="https://www.facebook.com/pages/CAF-Santa-Clotilde/209306331250?ref=ts" target="_NewWindow"><img style="WIDTH: 15px; HEIGHT: 15px;" onmouseover="" onmouseout="" onmousedown="" border="0" hspace="0" alt="" src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/logo-FB.gif" width="15" height="15"></a>
+
+	                                            	<a style="TEXT-DECORATION: " href="HTTP://www.twitter.com/CAFStaClotilde" target="_NewWindow"><img style="WIDTH: 15px; HEIGHT: 15px;" onmouseover="" onmouseout="" onmousedown="" border="0" hspace="0" alt="" src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/logo-TW.gif" width="15" height="15"></a>
+                                                   
+                                                     
+                                                     
+                                          </td>
+
+
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        	<tr>
+                            	<td align="center" valign="top"><img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Borde1.gif" width="603" height="51" longdesc="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Borde.gif" />
+                            		
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody" >
+                                    	<tr>
+                                        	<td valign="top" width="270" class="leftColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%"> 
+                                                     
+                                                    
+                                                    <tr mc:repeatable>
+                                                        <td valign="top"> 
+                                                            <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/09/MaPaz.jpg" style="max-width:110px; float: left; padding-right: 10px; padding-bottom: 10px" mc:label="image" mc:edit="tiwc150_image00" />
+                                                            <div mc:edit="tiwc150_content00">
+ 	                                                           <h4 class="h4">Queridos amigos del CAF:</h4>
+                                                            <p align="justify"><font size=2 face=Arial>Las actividades y eventos que pensamos para la Comunidad del CAF son momentos importantes para reforzar los lazos entre las familias y entre todos los que formamos parte de la institución. Con este espíritu fue que el año pasado hicimos nuestra primera Cena Comunitaria para los padres de los alumnos y este año nos reunimos el viernes 22 de noviembre para celebrar nuestra la segunda Edición. Fue una linda oportunidad para brindarles un espacio a las familias para que interactúen, se conozcan más y sobre todo, para que disfruten. </font></p>
+  
+
+
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        	<td valign="top" width="270" class="rightColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <div mc:edit="tiwc300_content00">
+                                                               <p><a 
+            href="https://donaronline.org/caf-santa-clotilde/sumate-al-caf" 
+            target=_NewWindow><img style="max-width:78px; float: right; padding-left: 10px; padding-bottom: 10px" mc:label="image" mc:edit="tiwc150_image00" 
+            src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/boton-sumate.gif" 
+            width=78 height=78></a></p><p style="float: left;">&nbsp;
+                                                              	</p>
+                                                              <p Align= "justify"><font size="2" face="Arial">En esa noche fuimos los docentes y empleados del CAF los que cocinamos, servimos y preparamos todo para que las familias se sentaran a la mesa y pudieran compartir un espacio de encuentro.<br />
+Quiero agradecer a todos los que hacen posible este tipo de eventos que ayudan a que los padres confíen en la educación que sus hijos reciben. Gracias al compromiso de las familias y de ustedes, este encuentro y la misión de ofrecer educación de calidad a los chicos del barrio Las Tunas, se va cumpliendo de a poco.<strong> ¡Sigamos apostando por la unión y el crecimiento de la Comunidad del CAF!</strong>
+</p>
+<p align=right>
+                                                             <strong>María Paz Mendizabal </strong><br />
+                                                            <em> Directora Ejecutiva</em> </font>
+
+                                                               </p>
+
+                                                                
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            </td>
+                                        	
+                                        </tr>
+
+
+                                        <!--empieza la doble columna-->
+
+                                    	<tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+                                            
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <tr>
+                                        	<td valign="top" width="280" class="leftColumnContent" background=http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/recuadro-verde.gif>
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top" ><!--style="background:http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/04/Rectángulo-fondo-520x544.jpg #5666c2; border: 5px solid #2b3676"-->
+                                                            <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Visita-Jardin-al-barrio-super.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image00" />
+                                                            <div mc:edit="tiwc300_content00">
+ 	                                                           <h4 class="h4">Conociendo el barrio Las Tunas</h4><background=http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/04/Rectángulo-fondo-520x544.jpg> <p align=justify>
+Los alumnos del Jardín recorrieron el barrio Las Tunas para ponerse en contacto con las distintas actividades comerciales que se desarrollan en la zona y con sus trabajadores. El supermercado del barrio, un kiosco de diarios y revistas, la Radio zonal y el Centro de Prevención y Asistencia en Nutrición (CEPAN) formaron parte del recorrido. Los chicos fueron muy bien recibidos y estuvieron contentos de aprender más sobre la comunidad de Las Tunas.
+
+      </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        	<td valign="top" width="280" class="rightColumnContent" background=http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/recuadro-naranja1.gif>
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                            <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Convivencia-alumnos-tarde-APOYO6.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
+                                                            <div mc:edit="tiwc300_content01">
+ 	                                                           <h4 class="h4">II Convivencia del Apoyo: fortaleciendo valores</h4><p align=justify>
+Los 165 chicos de apoyo disfrutaron el martes 22 y jueves 24 de octubre de una convivencia preparada especialmente para ellos. Nos reunimos en la Capilla de María Purísima para trabajar sobre el respeto a los pares, la importancia del trabajo en equipo y  la no discriminación. Con estas actividades buscamos que los chicos fortalezcan los valores en el trato con sus compañeros y su familia. <a href="https://www.facebook.com/media/set/?set=a.10151963144046251.1073741868.209306331250&type=3&uploaded=12">Visitá nuestra fan page y mirá las fotos de la Convivencia.</a>                                         </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                                <!-- // End Module: Standard Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+
+                            <!-- 3 columns module -->
+
+
+                            <tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Body \\ -->
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	
+
+                                        <!-- 3 imagenes de fondo -->
+                                    	<tr>
+                                        	<td valign="top" width="180" class="leftColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                        	<!--imagen fondo 1 -->
+                                                          </p><p style="float: left;"> <a href="http://www.cafsantaclotilde.org.ar/2013/11/14/1748/">  <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/actividades1.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01">
+                                                            
+                                                                                                                   
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        	<td valign="top" width="180" class="centerColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+                                                        	<!--imagen fondo 2 -->
+                                                            </a></p><p style="float: left;"> <a 
+            href="http://www.cafsantaclotilde.org.ar/2013/10/07/murga-compartida/" 
+            target=_NewWindow><img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/actividades2.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01"></a>
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        	<td valign="top" width="180" class="rightColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top">
+
+                                                        	<!--imagen fondo 3 -->
+                                                            
+                                                           </a></p><p style="float: left;"> <a 
+            href="http://youtu.be/_eX9ieLUnXc" 
+            target=_NewWindow><img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/actividades3.gif" style="max-width:160px;" mc:label="image" mc:edit="tiwc200_image01"></a>
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+
+                                        <!-- seccion desafio -->
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr> 
+
+                            <!--3 columns ends here -->
+
+
+                            <tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                    	<tr>
+                                        	<td valign="top" class="footerContent">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" id="social">
+                                                            <div mc:edit="std_social">
+                                                                &nbsp;<h4 style="text-align: center"><a href="http://www.cafsantaclotilde.org.ar/?p=1712"><img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/Proximas-actividades.gif" width="500"/>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                                <!-- // End Module: Standard Footer \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                                </td>
+                            </tr>
+
+
+
+
+
+
+
+
+                            <tr>
+                            	<td align="center" valign="top">
+                            		
+
+
+                                	<table border="0" cellpadding="0" cellspacing="0" width="600" id="templateBody">
+                                    	
+
+
+                                        <!--empieza la doble columna-->
+
+                                    	<tr>
+                                        	<td colspan="3" valign="top" class="bodyContent">
+                                            
+                                                <!-- // Begin Module: Standard Content \\ -->
+                                                <tr>
+                                        	<td valign="top" width="280" class="leftColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top" > 
+                                                            
+                                                            <div mc:edit="tiwc300_content01"><!--style="background: #5666c2; border: 5px solid #2b3676"-->
+                                                           
+                                                            	<!-- seccion desafio 1-->
+ 	                                                           <h4 class="h4">Desafío del mes </h4>
+                                                               <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/6272049297_53876821e6_o.jpg" style="max-width:260px;" mc:label="image" mc:edit="tiwc300_image01" />
+                                                               <p align=justify><font size="2" face="Arial">Durante los meses de diciembre y febrero el CAF se convierte en  Colonia de verano para nuestros chicos con diferentes actividades a cargo de un grupo de profesores contratados especialmente! Necesitamos tu ayuda para sostener este proyecto! 
+Que tu aporte sume para que los chicos tengan un verano mejor.
+<br />
+<br/>
+
+<strong>Para colaborar con este proyecto o con otras propuestas para el CAF, comunicate con Natascha Hinsch (Desarrollo de fondos), teléfono 15 5056 0445 y por e-mail: <a href="mailto:desarrollodefondos@cafsantaclotilde.org.ar">desarrollodefondos@cafsantaclotilde.org.ar </a></font></strong></p>
+                                                             
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        	<td valign="top" width="280" class="rightColumnContent">
+                                            
+                                                <!-- // Begin Module: Top Image with Content \\ -->
+                                                <table border="0" cellpadding="20" cellspacing="0" width="100%">
+                                                    <tr mc:repeatable>
+                                                        <td valign="top"><div mc:edit="tiwc300_content01">
+                                                                                                                        	<!-- seccion desafio 2-->
+ 	                                                           <h4 class="h4">Agradecimientos</h4><p align=justify>El Jardín del CAF, ¡Renovado! Gracias al aporte de donantes y voluntarios de distintas empresas, logramos avanzar en las reformas edilicias de todo el CAF. Agradecemos muy especialmente a: 
+<li><strong>Mondelēz</strong>: Gracias a ellos tenemos el comedor que luce como nuevo y los patios de Jardín y Apoyo acondicionados para que los chicos puedan jugar! <a href="http://www.cafsantaclotilde.org.ar/2013/11/04/mondelez/">Leer más</a>. 
+</br>
+<li><strong>Falabella</strong>: que con un gran grupo de voluntarios repintaron todas las clases del Apoyo escolar. <a href="https://www.facebook.com/media/set/?set=a.10151894678551251.1073741865.209306331250&type=3">Ver fotos</a>. </br>
+<li><strong>Los 4 M</strong>: por sus continuas donaciones.</br>
+<li><strong>Unilever</strong>: por la impresionante donación de productos.</br>
+<li><strong>Best Block y Weber-Saint Gobain</strong>: por las donaciones para la construcción de la pared medianera: bloques de cemento unos y pegamento otros.</br>
+<li><strong>Club Santa Bárbara</strong>: donación del pasto sintético que colocó Mondelēz en el patio de juegos de Jardín de infantes.</br>
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Top Image with Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                                <!-- // End Module: Standard Content \\ -->
+                                            
+                                            </td>
+                                        </tr>
+
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+
+
+
+
+
+                        	<tr>
+                            	<td align="center" valign="top">
+                                    <!-- // Begin Template Footer \\ -->
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="templateFooter">
+                                    	<tr>
+                                        	<td valign="top" class="footerContent">
+                                            
+                                                <!-- // Begin Module: Standard Footer \\ -->
+                                                <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                                                    <tr>
+                                                        <td colspan="2" valign="middle" id="social">
+                                                            <div mc:edit="std_social">
+                                                                &nbsp;<a href="https://twitter.com/CAFStaClotilde  ">Seguinos Twitter</a> | <a href=" https://www.facebook.com/pages/CAF-Santa-Clotilde/209306331250  "> Facebook</a> | <a href="http://www.cafsantaclotilde.org.ar/">Nuestro Sitio</a>&nbsp;
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td align="center" valign="top" width="400">
+                                                            <br />
+                                                            <div mc:edit="std_footer"><p align="center"><strong>
+                                                               Centro de Apoyo Familiar Santa Clotilde </strong><br />
+
+																Freire 3326, Las Tunas, General Pacheco, Tigre.
+																CP (1617). Provincia de Buenos Aires, Argentina. <br> 
+																Teléfonos: (03327) 443741 | (011) 155 484 4426 <br>
+															Mail: <a href="mailto:amigosdelcaf@cafsantaclotilde.org.ar">amigosdelcaf@cafsantaclotilde.org.ar</a> <br />
+                                                            </br>
+                                                            
+                                                            <img src="http://www.cafsantaclotilde.org.ar/wp-content/uploads/2013/11/guarda-zocalo.gif" width="550" /></div>
+                                                            <br />
+                                                      
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                </table>
+                                                <!-- // End Module: Standard Footer \\ -->
+                                            
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                  </td>
+                </tr>
+            </table>
+        </center>
+    </body>
+</html>
