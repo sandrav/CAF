@@ -1,10 +1,10 @@
 ==== Share Buttons by E-MAILiT ====
-Contributors: skallonis, e-mailit
+Contributors: e-mailit
 Tags: +1, ad, AddThis, addtoany, admin, ads, add this, advertising, analytics, bitly, blog, bookmark, bookmarks, buffer, button, del.icio.us, Digg, email, evernote, Facebook, facebook share, facebook share button, fark, floating buttons, gmail, google, hovering bar, hyves, image, images, instapaper, Like, linkedin, netlog, orkut, page, pages, pinterest, plugin, plus 1, plus one, post, posts, PrintFriendly, Reddit, sexybookmarks, Share, share and follow, share buttons, share links, Shareaholic, sharebar, sharedaddy, ShareThis, sharing is caring, sharing is sexy, sociable, social, social bookmarking, social bookmarks, statistics, stats, Stumble Upon, technorati, tumblr, tweet, twitter, twitter share, twitter, share button, widget, widgets, sidebar, wordpress, wpmu, yahoo, yammer, links, admin, vkontakte
 
 Requires at least: 2.9
-Tested up to: 3.7.1
-Stable tag: 4.5
+Tested up to: 3.8
+Stable tag: 4.6
 License: GPLv2 or later
 
 Share your content with an attractive social sharing menu for your WordPress site or blog.
@@ -13,11 +13,11 @@ Share your content with an attractive social sharing menu for your WordPress sit
 
 Install the E-MAILiT WordPress Plugin and increase your site's traffic via our **social life-cycle engagement suite**, such as Facebook, Twitter, Pinterest, and over 50 more sharing and social bookmarking sites.
 
-Third-party share buttons include the **Facebook Like Button**, **Twitter Tweet Button**, **Google+ Share Button**, **LinkedIn Share Button**, **Pinterest Share Button** and (new) **VKontakte Share Button**.
+Third-party share buttons include the **Facebook Like Button**, **Twitter Tweet Button**, **Google+ Share Button**, **LinkedIn Share Button**, **Pinterest Share Button** and **VKontakte Share Button**.
 
 The E-MAILiT Share Buttons, contain a searchable menu of every applicable service, with the most popular displayed by default.
 
-> Check out the <a href="http://www.e-mailit.com/demos/demo1">live demo</a>
+> Check out the <a href="http://www.e-mailit.com/demos/demo1">live demo</a>.
 
 * <a href="http://www.e-mailit.com/share/mobile?url=http://wordpress.org/plugins/e-mailit/&title=Share Buttons by E-MAILiT">Share this</a> plugin, anywhere and anytime on your mobile websites, with the new E-MAILiT Mobile-ready auto-optimized share tool (with **automatic detection of device-type**)
 * E-MAILiT Share Buttons are compact and can be placed in just a small space on your site
@@ -28,11 +28,11 @@ Optionally, if you want to customize your sharing buttons, get access to targete
 
 <p>http://www.youtube.com/watch?v=tKBlk_q83II</p>
 
-If you have a support question or want to see what other awesome features we are building, you can <a href="http://twitter.com/emailit">Follow us on Twitter</a>!
+> If you have a support question or want to see what other awesome features we are building, you can <a href="http://twitter.com/emailit">Follow us on Twitter</a>! Using the button on your website? Please let us know, we'd love to see it in action :) @emailit
 
 With **constant research and development**, **60+ thousand websites** use E-MAILiT's share buttons, **200+ thousand monthly social interactions**, reached **70+ million hits worldwide**, we trying to build a better worldwide social web, to be **the best sharing platform** by providing unique and innovative marketing tools and services, worldwide and help Publishers promote their web content online through innovation!
 
-<a href="http://blog.e-mailit.com">Blog</a> | <a href="http://www.e-mailit.com/tos">Privacy & Terms</a>
+<a href="http://blog.e-mailit.com">E-MAILiT Blog</a> | <a href="http://www.e-mailit.com/tos">Privacy & Terms</a>
 
 == Installation ==
 
@@ -47,7 +47,7 @@ Automatic installation through WordPress:
 Manual installation:
 
 1. Download here: http://wordpress.org/plugins/e-mailit and unarchive the plugin folder.
-2. Upload the E-MAILiT folder to the '/wp-content/plugins/' directory.
+2. Upload the E-MAILiT folder to the `/wp-content/plugins/` directory.
 3. Go to your Wordpress dashboard and navigate to Plugins -> Installed Plugins.
 4. On the Plugin page in your WordPress Administration area, activate the E-MAILiT plugin.
 
@@ -70,8 +70,8 @@ Manual process:
 1. Open any ftp software, on your computer.
 2. Enter the server's credentials.
 3. Open the root folder.
-4. Go /wp-content/plugins/ directory.
-5. Search for 'emailit' folder and select.
+4. Go `/wp-content/plugins/` directory.
+5. Search for `emailit` folder and select.
 6. Click delete.
 
 == Frequently Asked Questions ==
@@ -109,13 +109,12 @@ You can count the "Open & Close" action, as an impression. Metrics, such as clic
 2. Add a new domain (your site url)
 3. When press add domain, a unique meta tag code will display on your screen.
 For example, take a look the given below:                 
-&lt;meta name="e-mailit-site-verification" content="**E-MAILiT_0123456789012345678**" /&gt;
-Paste only the **E-MAILiT_digits**, to the appropriate text box field at your WordPress backend Admin panel.
-Press Save Changes.
-4. Go to your E-MAILiT account and press the **Verify now** button at the Website Settings.
+`&lt;meta name="e-mailit-site-verification" content="E-MAILiT_0123456789012345678" /&gt;`
+Paste only the **E-MAILiT_digits**, to the appropriate text box field at your WordPress backend Admin panel. Press Save Changes.  
+4. Go to your E-MAILiT account and press the **Verify now** button at the Website Settings.  
 5. Done!
 
-**ATTENTION / IMPORTANT**: The E-MAILiT Domain Verification System will place automatically the meta tag to the specified url source code, which was given by you, to the Domain Manager > Website Settings > Domain.
+> **ATTENTION / IMPORTANT**: The E-MAILiT Domain Verification System will place automatically the meta tag to the specified url source code, which was given by you, to the Domain Manager > Website Settings > Domain.
 
 == Screenshots ==
 01. Plugin options (a)
@@ -123,6 +122,19 @@ Press Save Changes.
 03. Plugin options (c)
 
 == Changelog ==
+= 4.6 =
+* Minor bug fixes.
+* Bug fix: Style conflicts with some themes resolved.
+* Fix conflict with other plugins.
+* CSS Fixes.
+= 4.5.9.1 =
+* Update Facebook Like button.
+= 4.5.9 =
+* Sharing services icons (Desktop & Mobile): re-designed/replaced.  
+**Desktop Version**: AOL Mail, Baidu, Bebo, Blogger, Delicious, Email, Evernote, Gmail, Google, Hyves, LinkedIn, LiveJournal, Meneame, Myspace, Odnoklassniki, Orkut, Pinterest, PrintFriendly, Reddit, Sina Weibo, StumbleUpon, Tuenti, Tumblr, Twitter, VKontakte, Yahoo Bookmarks, Yahoo Mail.  
+**Mobile Version**: AOL Mail, Baidu, Bebo, BizSugar, Blogger, Delicious, Digg, Email, Evernote, Facebook, Favoritus, Gmail, Google+, Hyves, LinkedIn, LiveJournal, Meneame, Myspace, Odnoklassniki, Pinterest, Reddit, Sina Weibo, StumbleUpon, Translate, Tuenti, Tumblr, Twitter, VKontakte, Yahoo Bookmarks.
+= 4.5.5 =
+* Minor bug fixes: style/template conflicts resolved.
 = 4.5 =
 * UX changes in E-MAILiT account control panel.
 = 4.2.1 =
@@ -144,7 +156,7 @@ Press Save Changes.
 = 3.6 =
 * IE v10 loading bug, fixed.
 = 3.5 =
-* Enable automagically your own Twitter id to your tweets. You can set your own "via @Twitter Username" and simply remove "via @EMAILiT".
+* Enable automatically your own Twitter id to your tweets. You can set your own "via @Twitter Username" and simply remove "via @EMAILiT".
 * You can now add, instantly, share buttons in Content and Sidebar, as well. Have them both, in a single page, without conflicts.
 = 3.1 =
 * Introducing Mobile Sharing. Share anywhere and anytime on your websites with E-MAILiT Mobile-ready auto-optimized share tool, with automatic detection of device-type. If you are already have installed E-MAILiT on your site, you have nothing to worry about and you ensure that your visitors will share and access your content on multiple devices (PC, tablets and smartphones). The mobile widget will automatically show the mobile sharing layout.
