@@ -4,35 +4,35 @@ Tags: +1, ad, AddThis, addtoany, admin, ads, add this, advertising, analytics, b
 
 Requires at least: 2.9
 Tested up to: 3.8
-Stable tag: 4.6
+Stable tag: 6.0.2.2 
 License: GPLv2 or later
 
-Share your content with an attractive social sharing menu for your WordPress site or blog.
+Increase Content Distribution, Ranking & Traffic of WordPress Sites with E-MAILiT Share Buttons, Media Solutions, Analytics, & more.
 
 == Description == 
 
-Install the E-MAILiT WordPress Plugin and increase your site's traffic via our **social life-cycle engagement suite**, such as Facebook, Twitter, Pinterest, and over 50 more sharing and social bookmarking sites.
+> E-MAILiT Share Buttons can be placed anywhere in your site and contain a searchable menu of every applicable service, with the most popular displayed by default. You can also show/hide the counter and set your own ''via @Twitter Username''. <a href="http://www.e-mailit.com">Share Buttons demo</a> (note that for demo purposes the ad popup, in our website, is open. No worries, this ad popup is by default closed in your share plugin). 
 
-Third-party share buttons include the **Facebook Like Button**, **Twitter Tweet Button**, **Google+ Share Button**, **LinkedIn Share Button**, **Pinterest Share Button** and **VKontakte Share Button**.
+**Summary of Features**  
 
-The E-MAILiT Share Buttons, contain a searchable menu of every applicable service, with the most popular displayed by default.
+* Easy Bookmarking, Sharing & Following 
+* 60 Sharing Services 
+* 75 Languages automatically localized 
+* Less Clutter 
+* Fast & Reliable Performance 
+* Asynchronous Loading Support 
+* Content Delivery Network support 
+* Lightweight File Size 
+* Easily Customizable 
+* Third-party Share Buttons & Floating ShareBars support 
+* Easy to Install 
 
-> Check out the <a href="http://www.e-mailit.com/demos/demo1">live demo</a>.
+Let sharing work for you, everywhere. Add sharing, following & campaigns to desktop sites and mobile devices. Monetize your content through E-MAILiT's innovation.  
+<a href="http://www.e-mailit.com/widget/login">Want to customize?</a> 
 
-* <a href="http://www.e-mailit.com/share/mobile?url=http://wordpress.org/plugins/e-mailit/&title=Share Buttons by E-MAILiT">Share this</a> plugin, anywhere and anytime on your mobile websites, with the new E-MAILiT Mobile-ready auto-optimized share tool (with **automatic detection of device-type**)
-* E-MAILiT Share Buttons are compact and can be placed in just a small space on your site
-* Use very light weight script which do not effect your site's loading speed
-* Beautiful and attractive design
+Read the <a href="http://wordpress.org/plugins/e-mailit/faq/">FAQ</a> tab to learn more. 
 
-Optionally, if you want to customize your sharing buttons, get access to targeted analytics of your complete social life-cycle, advertising campaign data metrics, and more, sign up for a free E-MAILiT.com account.
-
-<p>http://www.youtube.com/watch?v=tKBlk_q83II</p>
-
-> If you have a support question or want to see what other awesome features we are building, you can <a href="http://twitter.com/emailit">Follow us on Twitter</a>! Using the button on your website? Please let us know, we'd love to see it in action :) @emailit
-
-With **constant research and development**, **60+ thousand websites** use E-MAILiT's share buttons, **200+ thousand monthly social interactions**, reached **70+ million hits worldwide**, we trying to build a better worldwide social web, to be **the best sharing platform** by providing unique and innovative marketing tools and services, worldwide and help Publishers promote their web content online through innovation!
-
-<a href="http://blog.e-mailit.com">E-MAILiT Blog</a> | <a href="http://www.e-mailit.com/tos">Privacy & Terms</a>
+<a href="http://twitter.com/emailit">Follow us on Twitter</a>
 
 == Installation ==
 
@@ -75,15 +75,18 @@ Manual process:
 6. Click delete.
 
 == Frequently Asked Questions ==
+<h4>You can find here the most of the possible popular questions/answers. Please, visit also our Support Forum if you don't find something which is not included here.</h4>
+We try hard every day to give efficiency and the maximum quality of support to our users/publishers, without thinking the time cost consuming or anything else. Small or Big users/publishers, they all have the same treating from us, unlike the competition.
+
 <h4>Is E-MAILiT free of charge?</h4>
 Yes!
 
 <h4>Do I need to create an account?</h4>
-No. By default, we provide you with a standard version of our plugin. Do you want fully customization, get powerful sharing analytics and advertising campaign data metrics? Create an account with us and at the end of the flow, you will be given the ''Domain Verification Publisher Key'' and when you create your share button, the ''Your Button ID''. Please, paste only the E-MAILiT_digits of ''Domain Verification Publisher Key'' and the number of ''Your Button ID'', to the appropriate text box fields at your WordPress backend Admin panel.
+No. By default, we provide you with a standard version of our plugin. Do you want fully customization, get powerful sharing analytics and advertising campaign data metrics? <a href="http://www.e-mailit.com/widget/login">Create an account</a> with us and at the end of the flow, you will be given the ''Domain Verification Publisher Key'' and when you create your share button, the ''Your Button ID''. Please, paste only the E-MAILiT_digits of ''Domain Verification Publisher Key'' and the number of ''Your Button ID'', to the appropriate text box fields at your WordPress backend Admin panel.
 
 <h4>Do you offer Share Stats with the non registered version?</h4>
 No. You need first to create an account and start getting stats about the social sharing activity of your website. The sharing itself works the same either way.
-Own your social data and your metrics. We help you to track and analyze metrics, because E-MAILiT is integrated with Google Analytics. That's because stats belongs to you and you must have them all in one place. Analyze and measure Social Behaviour (track sharers, fans and followers), overall button activity, shares by service, follows by channel, campaign analytics, most shared web content, most followers generated from a web content, detailed site share metrics, detailed site follow metrics.
+Own your social data and your metrics. We help you to track and analyze metrics, because E-MAILiT is integrated with Google Analytics. That's because you must have them all in one place. Analyze and measure Social Behaviour (track sharers, fans and followers), overall button activity, shares by service, follows by channel, campaign analytics, most shared web content, most followers generated from a web content, detailed site share metrics, detailed site follow metrics.
 
 Follow the simple steps below to start receiving social data for your website:
 <ul>
@@ -106,15 +109,48 @@ You can count the "Open & Close" action, as an impression. Metrics, such as clic
 <h4>How to verify a domain?</h4>
 
 1. Login with your E-MAILiT account
-2. Add a new domain (your site url)
-3. When press add domain, a unique meta tag code will display on your screen.
+2. Add a New Website
+3. When press Add Website, a meta tag code snippet will display on your screen.
 For example, take a look the given below:                 
 `&lt;meta name="e-mailit-site-verification" content="E-MAILiT_0123456789012345678" /&gt;`
 Paste only the **E-MAILiT_digits**, to the appropriate text box field at your WordPress backend Admin panel. Press Save Changes.  
-4. Go to your E-MAILiT account and press the **Verify now** button at the Website Settings.  
-5. Done!
+**Settings** > **E-MAILiT Share**  Plugin options / Domain Verification Publisher Key  
+4. Return to your E-MAILiT account and press the **Verify Site** button.  
+5. Done! You can create now your first Share Button (http://www.e-mailit.com/widget/control/new_button) for your website.
 
-> **ATTENTION / IMPORTANT**: The E-MAILiT Domain Verification System will place automatically the meta tag to the specified url source code, which was given by you, to the Domain Manager > Website Settings > Domain.
+> **ATTENTION / IMPORTANT**: The E-MAILiT Domain Verification System will place automatically the meta tag code snippet to the specified url source code, which was given by you, to the Website Settings > Domain.
+
+<h4>Do I need to edit html or javascript?</h4>
+
+There is no need to edit any line of code. The whole installation procedure of our plugin, will take place at your WordPress admin control panel. If you want a custom solution, you should create an E-MAILiT account. In that case you must combine the E-MAILiT admin control panel options with your WordPress admin control panel options.
+
+<h4>How do I eliminate the plugin from certain pages?</h4>
+
+Unfortunately, there is no option in WordPress for something like this. There is no an automated solution to delete locally and in certain pages, the share button code. Also, if you choose to auto-install our plugin you can't edit the html source code of your wp pages, to delete our code in certain pages. You can do the opposite, though, if you are familiar editing html and javascript code. Try to put in your preferred pages our share button code, manually.
+
+<h4>How do I activate / de-activate your plugin?</h4>
+
+Please, read the guide here http://wordpress.org/plugins/e-mailit/installation
+
+<h4>I can't remove your plugin. Are you giving us a trouble plugin?</h4>
+
+It would be dumb and catastrophic for us, to develop a plugin which can not uninstall from the computer systems. After receiving a few support messages, on how to remove the plugin, have been revealed that the default un-installation procedure, isn't working for all, because when they installed the E-MAILiT button they had done it using the manual installation process. As a result, when they decided to un-install, they thought that by removing the plugin, it will also remove the javascript code which they had manually inserted in their websites. The result of this awkward situation is that those specific users are contacting with our support team, claiming that our plugin is a harmful malware, which leaves code behind, because they can not un-install it from their website. The only code that the plugin is going to position in a website, can be found here /wp-content/plugins/emailit directory, and there is no way for our plugin to work properly, if this folder has been deleted. We would like to inform, that our plugin is officially being accepted, after a thorough testing, from the WordPress Plugins Directory. Also, we don't write the un-uninstallation code of the plugin. This is an automated proccess through WordPress. After some threads to our support forum and a single private message via email, we wanted to put an end on this and finally to make it clear to any user, who tries to un-install with the wrong way our plugin.
+
+<h4>How do I link the Facebook Like Button or the Tweet Button to my pages?</h4>
+
+Facebook Like Button displays the likes about a specific url. In order to show correctly your likes you must place the button in the right place. If you haven't inserted the button in your home page, propably your likes are linked to it. If in case this is valid, by placing the button in your home page you will see the correct like counter for your site.
+
+<h4>How do I set the integrated Follow Channels inside to my share button menu?</h4>
+
+Create a free account and go to http://www.e-mailit.com/widget/control/add_domain
+
+<h4>What languages do you support?</h4>
+
+Afrikaans, Albanian, Arabic, Armenian, Azerbaijani, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Catalan; Valencian, Central Khmer, Chinese, Croatian, Czech, Danish, Dutch; Flemish, English, Esperanto, Estonian, Faroese, Finnish, French, Galician,  Georgian, German, Greek, Gujarati, Haitian, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada, Korean, Kurdish, Latin, Latvian, Lithuanian, Luxembourgish, Malay, Maltese, Mongolian, Northern Sami, Norwegian, Pashto, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Sinhala, Slovak, Slovenian, Spanish, Sundanese, Swahili, Swedish, Tagalog, Tamil, Tatar, Telugu, Thai, Tswana, Turkish, Ukrainian, Urdu, Vietnamese, Welsh, Yiddish.
+
+<h4>Why do I get your ads? How can I terminate them? Are you a spammer?</h4>
+
+We are not spammers. By default, when a visitor returns to your site, after clicking to share your content via a service, they will see an advertisement, on the left of the share menu. This advertisement never shows when the share menu of the E-MAILiT button opens at first. It will never show up on your visitor's screen, if they do not click on a sharing service. Our strategy is not making you or your visitors feel frustrated, so we display advertisements in this smart way. On the other hand, you have the option to automatically show/hide the Ad Display on the widget's share menu. The advertisement is there for anyone interested to see, or you can simply hide it! It is that easy. The only thing you need to do is to create a free account and customize your settings.
 
 == Screenshots ==
 01. Plugin options (a)
@@ -122,6 +158,61 @@ Paste only the **E-MAILiT_digits**, to the appropriate text box field at your Wo
 03. Plugin options (c)
 
 == Changelog ==
+= 6.0.2.1 =
+* Bug Fixes.
+= 6.0.2 =
+* Remove E-MAILiT pink Share Button and use only the (out of the box) third-party share counter buttons.
+* Other plugin conflicts: Resolved.
+= 6.0.1 =
+* Update FAQ.
+* Bug Fixes.
+= 6.0 [2014-2-9] =
+* Launch of our new E-MAILiT website!
+= 5.4 =
+* Remove Hyves
+* Add Mail.Ru
+= 5.3.8 =
+* Backend admin panel modifications.
+* Minor bug fixes: style/template conflicts resolved.
+* WordPress 3.8.1 compatibility.
+* Update FAQ.
+= 5.3.7 =
+* Support links via Twitter, WordPress Forum and Email, located at your E-MAILiT account control panel.
+= 5.3.5 =
+* UX changes in E-MAILiT account control panel.
+= 5.3.2 [2014-1-19] =
+* Code performance improvements.
+= 5.3.1 [2014-1-16] =
+* Bug fix - Several small bug fixes and improvements.
+= 5.3 =
+* Important: Show your trust, certainty and upgrade now! We assure you that upgrade will not change your current E-MAILiT plugin settings.
+* Minor bug fixes.
+* Security improvements.
+* Improved CSS styling.
+= 5.2 =
+* UX changes in E-MAILiT Share Desktop Version.
+* CSS floating bar modifications.
+* Update FAQ.
+* Bug Fixes.
+= 5.1 =
+* New third-party counter button to Share with E-MAILiT: Facebook SHARE.
+= 5.0 =
+* UX changes in account email alert notifications.
+* UX changes in E-MAILiT Share Mobile Version.
+* Add alert check validation to Your Button ID text box, at WordPress Admin panel / E-MAILiT 
+Settings.
+* UX changes in WordPress frontend Admin panel.
+= 4.8.2 =
+* Minor bug fixes.
+= 4.8.1 =
+* CSS Fixes.
+= 4.8 =
+* Update FAQ.
+* Bug Fixes.
+= 4.7 =
+* UX changes in E-MAILiT Share Mobile Version.
+* WordPress 3.8 compatibility.
+* Bug Fixes.
 = 4.6 =
 * Minor bug fixes.
 * Bug fix: Style conflicts with some themes resolved.
